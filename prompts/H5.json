@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform advanced statistical modeling and survival analysis on the titanic.csv dataset. The code should: 1) Implement Kaplan-Meier survival analysis treating the voyage as time-to-event data (with survival as event indicator), 2) Build Cox proportional hazards regression models to identify factors affecting survival probability, 3) Perform advanced statistical tests including multivariate analysis, interaction effects testing, and model diagnostics, 4) Implement propensity score matching to analyze treatment effects (e.g., passenger class impact), 5) Conduct bootstrap resampling for confidence intervals and statistical inference, 6) Apply Bayesian analysis using PyMC3 or similar for probabilistic modeling of survival factors, 7) Validate model assumptions and perform sensitivity analysis. Include proper imports (pandas, lifelines, scipy, statsmodels, pymc3, numpy, matplotlib) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Advanced Statistical Modeling",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should implement survival analysis techniques, advanced statistical methods, Bayesian modeling, and comprehensive model validation with proper statistical rigor."
+}

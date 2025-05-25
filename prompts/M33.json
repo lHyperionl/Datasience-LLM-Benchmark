@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform feature engineering on the spotify_2023.csv dataset. The code should: 1) Load the dataset. 2) Combine `released_year`, `released_month`, and `released_day` into a single datetime column named `release_date`. Handle potential errors during conversion by setting invalid dates to NaT. 3) Create a new feature named `days_since_release`, calculated as the number of days between `release_date` and a fixed date '2023-12-31'. This new feature should be an integer. 4) Display the `track_name`, `release_date`, and `days_since_release` for the first 5 tracks. Include proper imports (pandas) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code should load CSV, create `release_date` from `released_year`, `released_month`, `released_day` (handling errors), calculate `days_since_release` from '2023-12-31', and display specified columns for the first 5 tracks."
+}

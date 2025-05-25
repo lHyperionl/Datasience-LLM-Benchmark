@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to analyze trends in YouTube trending videos from the youtube_trendings.csv dataset. The code should: 1) Load the dataset. 2) For the `Video views` column: remove commas, convert to numeric, and fill resulting NaNs with 0. 3) Ensure the `published` column (year) is treated as a numeric or integer type. 4) Group the data by the `published` year. 5) For each year, calculate two metrics: a) the average of the cleaned `Video views`, and b) the total number of unique videos (count of unique `Video` titles). 6) Create a figure with two subplots: the first subplot should be a line graph showing the average cleaned `Video views` per year, and the second subplot should be a line graph showing the total number of unique videos per year. Both plots should have appropriate titles and axis labels. Include proper imports (pandas, matplotlib.pyplot) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Trend Analysis",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should load data, clean `Video views` (commas, numeric, fill NaNs with 0). Treat `published` year as numeric. Group by `published` year to calculate average cleaned `Video views` and count of unique `Video` titles per year. Plot these two trends on separate subplots with titles and labels."
+}

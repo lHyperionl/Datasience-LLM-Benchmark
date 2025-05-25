@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing social media post engagement:\n\nimport pandas as pd\ndata = {\n    \"PostID\": [\"SM01\", \"SM02\", \"SM03\", \"SM04\", \"SM05\", \"SM06\", \"SM07\", \"SM08\", \"SM09\"],\n    \"Platform\": [\"Instagram\", \"Twitter\", \"Facebook\", \"Instagram\", \"Twitter\", \"Instagram\", \"Facebook\", \"Twitter\", \"Facebook\"],\n    \"PostType\": [\"Image\", \"Text\", \"Video\", \"Image\", \"Text\", \"Video\", \"Image\", \"Video\", \"Text\"],\n    \"Likes\": [150, 80, 300, 200, 90, 450, 120, 250, 70],\n    \"Shares\": [20, 15, 50, 30, 10, 60, 18, 40, 12],\n    \"Comments\": [10, 5, 25, 15, 8, 30, 9, 20, 6]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Create a new feature \"EngagementScore\" calculated as: Likes + (Shares * 2) + (Comments * 3). 2) For each unique \"Platform\", determine which \"PostType\" has the highest average \"EngagementScore\". 3) Print the Platform, the PostType with the highest average EngagementScore on that platform, and that highest average EngagementScore. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Advanced Aggregation & Analysis",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate EngagementScore, and for each platform, correctly identify and print the PostType with the highest average EngagementScore and its corresponding score."
+}

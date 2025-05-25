@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the heart.csv dataset and create a grouped bar chart. The code should: 1) Load the dataset. 2) Create a grouped bar chart showing the count of `HeartDisease` (values 0 and 1) for each category in the `ChestPainType` column (TA, ATA, NAP, ASY). 3) The x-axis should represent `ChestPainType`, and for each type, there should be two bars representing the count of `HeartDisease`=0 and `HeartDisease`=1. 4) Ensure the plot has a title, labeled axes, and a legend. Use matplotlib or seaborn for plotting. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Visualization",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should properly load CSV and generate a grouped bar chart showing `HeartDisease` counts (0 and 1) for each `ChestPainType` category, with appropriate labels, title, and legend."
+}

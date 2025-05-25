@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build a regression model using the mobiles_2025.csv dataset. The code should: 1) Load the dataset. 2) Clean `RAM` (remove 'GB', to numeric), `Battery Capacity` (remove 'mAh', to numeric), `Screen Size` (remove ' inches', to numeric), and `Launched Price (USA)` (remove 'USD ', remove commas, to numeric). Handle conversion errors by setting to NaN and then drop rows with any NaN values in these specific columns. 3) Define features `X` using the cleaned `RAM`, `Battery Capacity`, and `Screen Size`. Define target `y` as the cleaned `Launched Price (USA)`. 4) Split the data into training (80%) and testing (20%) sets with `random_state=42`. 5) Train a Linear Regression model on the training data. 6) Evaluate the model on the test set and report the R-squared (R2) score and Mean Absolute Error (MAE). Include proper imports (pandas, sklearn.model_selection, sklearn.linear_model, sklearn.metrics) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Regression",
+  "dataset_reference": "mobiles_2025.csv",
+  "evaluation_criteria": "Code should load CSV, clean specified columns to numeric (dropping NaNs post-cleaning for these columns), split data, train a Linear Regression model to predict cleaned US Price using cleaned RAM, Battery Capacity, and Screen Size, and report R2 and MAE."
+}

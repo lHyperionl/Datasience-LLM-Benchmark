@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build and evaluate a binary classification model for water potability prediction on the water_potability.csv dataset. The code should: 1) Perform data preprocessing including handling missing values, feature scaling, and train-test split (80/20), 2) Train multiple classification algorithms (Logistic Regression, Random Forest, SVM), 3) Evaluate models using accuracy, precision, recall, F1-score, and ROC-AUC metrics, 4) Create confusion matrices and ROC curves for each model, 5) Perform k-fold cross-validation (k=5) to assess model stability, 6) Compare model performances and select the best performing model, 7) Display feature importance for the best model. Include proper imports (pandas, sklearn, matplotlib, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Classification",
+  "dataset_reference": "water_potability.csv",
+  "evaluation_criteria": "Code should preprocess data correctly, implement multiple classification algorithms, evaluate with comprehensive metrics, visualize results, and perform cross-validation."
+}

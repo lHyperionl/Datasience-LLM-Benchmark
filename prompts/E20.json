@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to clean and preprocess the synthetic_covid19_data.csv dataset. The code should: 1) Load the dataset and parse the 'date' column as datetime objects. 2) Handle missing values in 'hosp_patients' and 'icu_patients' by filling them with 0. For other numerical columns like 'positive_rate', 'reproduction_rate', fill missing values with the mean of their respective column. 3) Create a new column 'mortality_rate' calculated as ('total_deaths' / 'total_cases') * 100. Handle potential division by zero by replacing resulting NaNs or infs with 0. 4) Create a new column 'vaccination_rate_per_capita' calculated as ('people_fully_vaccinated' / 'population') * 100. Handle potential division by zero. 5) Filter the dataset to include only records from the year 2021. 6) Display the shape of the cleaned dataset and the first 5 rows with the new columns. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Cleaning and Preprocessing",
+  "dataset_reference": "synthetic_covid19_data.csv",
+  "evaluation_criteria": "Code should load data, handle specified missing values, create 'mortality_rate' and 'vaccination_rate_per_capita' columns, filter by year, and display cleaned data information."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the spotify_2023.csv dataset using pandas. The code should: 1) Generate a histogram to visualize the distribution of the `bpm` column. 2) Create a scatter plot visualizing the relationship between `danceability_%` (x-axis) and `energy_%` (y-axis). 3) Ensure both plots have titles and labeled axes. Include proper imports (pandas, matplotlib.pyplot) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code should load CSV, generate a histogram for `bpm`, a scatter plot for `danceability_%` vs `energy_%`, with appropriate titles and axis labels for both."
+}

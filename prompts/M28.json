@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to prepare data from heart.csv and train a Logistic Regression model to predict `HeartDisease`. The code should: 1) Load the dataset. 2) Select the following features: `Age`, `RestingBP`, `Cholesterol`, `MaxHR`, `Sex`, and `ChestPainType`. The target variable is `HeartDisease`. 3) Preprocess categorical features: `Sex` (M, F) and `ChestPainType` (TA, ATA, NAP, ASY) using one-hot encoding. 4) Split the preprocessed data into training (75%) and testing (25%) sets, using `random_state=42`. 5) Train a Logistic Regression model (default parameters) on the training data. 6) Make predictions on the test set and report the accuracy score. Include proper imports (pandas, sklearn.model_selection, sklearn.linear_model, sklearn.preprocessing) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Classification",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should correctly load data, select specified features (`Age`, `RestingBP`, `Cholesterol`, `MaxHR`, `Sex`, `ChestPainType`) and target (`HeartDisease`), one-hot encode `Sex` and `ChestPainType`, split data (75/25, random_state=42), train a Logistic Regression model, and report accuracy on the test set."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform comprehensive passenger segmentation and clustering analysis on the titanic.csv dataset. The code should: 1) Engineer advanced features including social network analysis (family groups, ticket sharing), socioeconomic indicators, and text-based features from names and tickets, 2) Apply multiple clustering algorithms (K-means, Hierarchical, DBSCAN, Gaussian Mixture Models) with proper preprocessing and scaling, 3) Determine optimal number of clusters using multiple validation metrics (silhouette score, elbow method, gap statistic, calinski-harabasz index), 4) Perform dimensionality reduction (PCA, t-SNE, UMAP) for visualization and clustering enhancement, 5) Analyze cluster characteristics and survival patterns within each segment, 6) Implement cluster stability analysis and consensus clustering, 7) Create comprehensive visualizations showing cluster distributions, survival rates, and feature importance for each segment, 8) Validate clustering results using external criteria and survival outcomes. Include proper imports (pandas, sklearn, umap, scipy, matplotlib, seaborn, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Customer Segmentation",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should implement advanced feature engineering, multiple clustering algorithms, proper cluster validation, dimensionality reduction, and comprehensive analysis of passenger segments."
+}

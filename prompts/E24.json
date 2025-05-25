@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the clash_royale_cards.csv dataset using pandas. The code should: 1) Generate a histogram to visualize the distribution of the `elixirCost` column. Use matplotlib or seaborn for plotting. 2) Ensure the plot has a title and labeled axes. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should properly load CSV and generate a histogram for the `elixirCost` column with appropriate labels and title."
+}

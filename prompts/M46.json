@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code using pandas and matplotlib/seaborn to analyze the penguins.csv dataset. The code should: 1) Load the dataset. 2) Drop rows where `body_mass_g` or `species` is NA. 3) For each `species`, calculate the average `body_mass_g`. 4) Create a bar plot showing the average `body_mass_g` for each `species`. The plot should have a title and labeled axes. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, handle NAs in `body_mass_g` and `species` by dropping rows, calculate average `body_mass_g` per `species`, and generate a labeled bar plot of the results."
+}

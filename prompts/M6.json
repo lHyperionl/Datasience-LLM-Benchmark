@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform advanced data visualization and storytelling on the titanic.csv dataset. The code should: 1) Create a multi-panel figure showing survival rates by different demographic groups (class, gender, age groups), 2) Generate a heatmap showing survival rates across combinations of class and gender, 3) Create violin plots comparing age distributions of survivors vs non-survivors by gender, 4) Build an interactive scatter plot showing the relationship between age, fare, and survival with different colors for passenger classes, 5) Design a comprehensive dashboard-style figure combining multiple visualizations with proper annotations and insights. Include proper imports (pandas, matplotlib, seaborn, plotly) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Visualization",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should create multiple sophisticated visualizations, use appropriate chart types for different data relationships, and combine plots effectively for storytelling."
+}

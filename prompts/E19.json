@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic exploratory data analysis on the synthetic_covid19_data.csv dataset. The code should: 1) Load the dataset and parse the 'date' column as datetime objects. 2) Display the first 10 rows. 3) Show the shape of the dataset (rows and columns). 4) List all column names and their data types. 5) Calculate and display the total sum of 'total_cases' and 'total_deaths' grouped by 'continent'. 6) Identify and display the top 5 'location' entries with the highest 'total_cases' based on the latest date for each location. 7) Calculate basic summary statistics (mean, median, min, max, std) for 'new_cases' and 'new_deaths'. 8) Count and display missing values for each column. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "synthetic_covid19_data.csv",
+  "evaluation_criteria": "Code should properly load CSV, parse dates, display dataset information, calculate continental summaries, identify top locations by cases, show summary statistics for new cases/deaths, and count missing values."
+}

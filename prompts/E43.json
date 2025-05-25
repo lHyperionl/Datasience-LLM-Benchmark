@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the penguins.csv dataset using pandas. The code should: 1) Report the number of missing values (NA) for each column. 2) For the numerical columns `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, and `body_mass_g`, first drop any rows where *any* of these four specific columns have a missing value. Then, calculate and report basic descriptive statistics (mean, median, standard deviation, min, max) for these four columns using the data that remains. 3) Count and report the number of unique values in the `species` column and the `island` column. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should properly load CSV, report NA counts per column, correctly filter rows based on NAs in the four specified numerical columns, calculate descriptive statistics for these columns on the filtered data, and report unique counts for `species` and `island`."
+}

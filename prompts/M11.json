@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build a classification model for the video_games_sales.csv dataset. The code should: 1) Load the dataset and handle missing values, 2) Create a binary target variable 'High_Sales' where games with Global_Sales > 1.0 million are labeled as 1 (high sales) and others as 0 (low sales), 3) Prepare features by encoding categorical variables (Platform, Genre, Publisher) using label encoding, 4) Create additional features like 'Total_Regional_Sales' (sum of NA, EU, JP, Other sales) and 'Years_Since_Release' (2023 - Year), 5) Split the data into training and testing sets (80-20 split), 6) Train a Random Forest classifier with 100 estimators, 7) Evaluate the model using accuracy, precision, recall, F1-score, and confusion matrix, 8) Display feature importance. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Classification and Machine Learning",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should create target variable, encode features, train Random Forest model, and provide comprehensive evaluation metrics including feature importance."
+}

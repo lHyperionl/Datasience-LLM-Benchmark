@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the mobiles_2025.csv dataset and perform feature engineering on camera specifications. The code should: 1) Load the dataset. 2) Define a function to clean camera columns (`Front Camera`, `Back Camera`): extract the first sequence of digits as the MP value. For example, '12MP / 4K' becomes 12, '48MP + 12MP' becomes 48. If no digits are found, return 0. Apply this function to create cleaned `Cleaned Front Camera` and `Cleaned Back Camera` numeric columns. 3) Create a new feature `Total Camera MP` as the sum of `Cleaned Front Camera` and `Cleaned Back Camera`. 4) Display the `Model Name`, `Cleaned Front Camera`, `Cleaned Back Camera`, and `Total Camera MP` columns for the first 10 rows. Include proper imports (pandas, re) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "mobiles_2025.csv",
+  "evaluation_criteria": "Code should load CSV, correctly clean `Front Camera` and `Back Camera` by extracting the first numerical MP value (default to 0 if none), create `Total Camera MP`, and display specified columns for the first 10 rows."
+}

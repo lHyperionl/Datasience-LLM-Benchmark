@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that first creates a pandas DataFrame representing daily stock prices for a fictional company 'TECHCO'. The DataFrame should be created using the following data: \n`data = {'Date': pd.to_datetime(['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05', '2024-01-08']), 'Ticker': ['TECHCO', 'TECHCO', 'TECHCO', 'TECHCO', 'TECHCO', 'TECHCO'], 'Open': [150.0, 152.5, 151.0, 153.0, 155.5, 154.0], 'High': [153.0, 153.5, 154.0, 156.0, 157.0, 156.5], 'Low': [149.5, 150.5, 150.0, 152.5, 154.5, 153.0], 'Close': [152.0, 151.0, 153.5, 155.0, 154.5, 156.0], 'Volume': [1000000, 1200000, 1100000, 1300000, 900000, 1050000]}`\nSet 'Date' as the index of the DataFrame. Then, the code should: 1) Calculate the daily price range (difference between 'High' and 'Low' prices) for each day and store it in a new column named 'Daily_Range'. 2) Find and print the 'Date' which had the highest 'Close' price. 3) Print the DataFrame including the new 'Daily_Range' column. Include necessary imports (pandas). Provide only the Python code.",
+  "difficulty": "easy",
+  "category": "Time Series Analysis",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly create the DataFrame with 'Date' as index, calculate 'Daily_Range', find the date with the highest 'Close' price, and print the updated DataFrame."
+}

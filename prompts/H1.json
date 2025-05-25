@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code for feature engineering and selection on the winequality-red.csv dataset. The code should: 1) Create at least three new meaningful features from existing ones (e.g., ratios, interactions, polynomial features), 2) Apply at least two different feature selection techniques (e.g., Recursive Feature Elimination with RandomForest, and SelectKBest using f_regression) to identify the top 5-7 most important features for predicting 'quality', 3) Compare and contrast the feature sets selected by each method, 4) Display the final selected features with their importance scores or rankings. Include proper imports (pandas, sklearn, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Feature Engineering",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should create meaningful engineered features, apply multiple feature selection methods correctly, and compare results between methods."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to create basic visualizations for the water_potability.csv dataset. The code should: 1) Create a bar chart showing the distribution of potable vs non-potable water samples, 2) Create histograms for pH, Hardness, and Chloramines showing their distributions, 3) Create a boxplot comparing pH levels between potable and non-potable water, 4) Generate a simple correlation heatmap for all numerical features. Each plot should have proper titles, axis labels, and legends where appropriate. Include proper imports (pandas, matplotlib, seaborn) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "water_potability.csv",
+  "evaluation_criteria": "Code should create four distinct visualizations with proper formatting, handle missing values in plots, and display distribution and relationship patterns clearly."
+}

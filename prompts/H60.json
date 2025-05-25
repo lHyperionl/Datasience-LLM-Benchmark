@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing a book inventory:\n\nimport pandas as pd\ndata = {\n    \"BookID\": [\"B001\", \"B002\", \"B003\", \"B004\", \"B005\", \"B006\", \"B007\"],\n    \"Title\": [\"The Great Gatsby\", \"To Kill a Mockingbird\", \"1984\", \"Pride and Prejudice\", \"The Hobbit\", \"Animal Farm\", \"Brave New World\"],\n    \"Author\": [\"F. Scott Fitzgerald\", \"Harper Lee\", \"George Orwell\", \"Jane Austen\", \"J.R.R. Tolkien\", \"George Orwell\", \"Aldous Huxley\"],\n    \"Genre\": [\"Classic\", \"Classic\", \"Dystopian\", \"Romance\", \"Fantasy\", \"Dystopian\", \"Dystopian\"],\n    \"Stock\": [12, 8, 15, 7, 20, 10, 9],\n    \"Price\": [10.99, 9.50, 12.00, 8.75, 15.25, 7.99, 11.50],\n    \"YearPublished\": [1925, 1960, 1949, 1813, 1937, 1945, 1932]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) For each \"Author\", count the number of books they have in the inventory and calculate the average \"Price\" of their books. 2) Print this information, showing Author, Count of Books, and Average Price. 3) Identify and print the \"Author\" who has the most books in stock (sum of \"Stock\" for all their books). Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Advanced Aggregation & Analysis",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate book count and average price per author, print this, and correctly identify the author with the highest total stock."
+}

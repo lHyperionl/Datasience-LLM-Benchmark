@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform advanced feature engineering and dimensionality reduction on the world-happiness-report-2021.csv dataset. The code should: 1) Load and preprocess the dataset, 2) Create engineered features: 'Happiness_Efficiency' (Ladder score / GDP per capita), 'Social_Wellness_Index' (combination of Social support and Healthy life expectancy), 'Governance_Score' (combination of Freedom and low Corruption), 'Regional_Happiness_Rank' (rank within region), 'GDP_vs_Regional_Average' (difference from regional GDP mean), 3) Apply polynomial features (degree 2) to key happiness factors, 4) Perform feature scaling using multiple methods (StandardScaler, MinMaxScaler, RobustScaler), 5) Apply PCA and t-SNE for dimensionality reduction and visualization, 6) Use SelectKBest and Recursive Feature Elimination for feature selection, 7) Implement correlation-based feature filtering and mutual information scoring, 8) Create interaction features between economic and social factors, 9) Validate feature importance using Random Forest and visualize results. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering and Advanced Analytics",
+  "dataset_reference": "world-happiness-report-2021.csv",
+  "evaluation_criteria": "Code should create multiple engineered features, apply polynomial transformations, perform dimensionality reduction, feature selection, scaling methods, and evaluate feature importance."
+}

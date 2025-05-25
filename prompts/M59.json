@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing Pokemon stats:\n\nimport pandas as pd\ndata = {\n    \"PokemonID\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"Name\": [\"Bulbasaur\", \"Ivysaur\", \"Venusaur\", \"Charmander\", \"Charmeleon\", \"Charizard\", \"Squirtle\", \"Wartortle\"],\n    \"Type1\": [\"Grass\", \"Grass\", \"Grass\", \"Fire\", \"Fire\", \"Fire\", \"Water\", \"Water\"],\n    \"Type2\": [\"Poison\", \"Poison\", \"Poison\", None, None, \"Flying\", None, None],\n    \"HP\": [45, 60, 80, 39, 58, 78, 44, 59],\n    \"Attack\": [49, 62, 82, 52, 64, 84, 48, 63],\n    \"Defense\": [49, 63, 83, 43, 58, 78, 65, 80]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Filter the DataFrame to include only Pokemon whose \"Type1\" is \"Fire\". 2) For these Fire-type Pokemon, calculate and print their average \"Attack\" stat. Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Data Filtering",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, filter for Fire-type Pokemon, and accurately calculate their average Attack stat."
+}

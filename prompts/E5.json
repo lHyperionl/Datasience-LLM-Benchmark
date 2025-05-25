@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to create basic visualizations for the titanic.csv dataset. The code should: 1) Create a bar chart showing the count of survivors vs non-survivors, 2) Create a bar chart showing the distribution of passenger classes (Pclass), 3) Create a histogram of passenger ages (handle missing values appropriately), 4) Create a bar chart showing the count of passengers by gender (Sex). Each plot should have proper titles and axis labels. Include proper imports (pandas, matplotlib) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should create four distinct plots with proper titles and labels, handle missing Age values, and display survival, class, age, and gender distributions."
+}

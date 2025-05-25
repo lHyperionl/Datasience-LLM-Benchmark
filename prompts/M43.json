@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the penguins.csv dataset and perform data cleaning and aggregation. The code should: 1) Load the dataset. 2) For the numerical columns `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, and `body_mass_g`, impute any missing values (NA) using the mean of their respective column (mean should be calculated from non-NA values). 3) For the categorical `sex` column, impute any missing values (NA) with the mode of the column. 4) After imputation, group the data by `species` and the imputed `sex` column. 5) Calculate and display the average `body_mass_g` (using the imputed values) for each group. Include proper imports (pandas) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Cleaning",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load CSV, correctly impute NAs in specified numerical columns with their means, impute NAs in `sex` with its mode, group by `species` and imputed `sex`, and calculate average imputed `body_mass_g` for each group."
+}

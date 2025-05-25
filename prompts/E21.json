@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to create visualizations for the synthetic_covid19_data.csv dataset. The code should: 1) Load the dataset and parse the 'date' column. 2) Create a time series line plot of 'new_cases' for the location 'India' over the entire period. 3) Generate a bar chart showing the sum of 'total_deaths' for each 'continent'. 4) Create a scatter plot showing the relationship between 'gdp_per_capita' (x-axis) and 'total_vaccinations' (y-axis) for all locations, using the latest entry for each location. 5) Plot a histogram of the 'reproduction_rate' column. 6) Create a box plot comparing the 'stringency_index' across different 'continent' values. Use matplotlib and seaborn for plotting. Include proper titles and labels for all charts. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "synthetic_covid19_data.csv",
+  "evaluation_criteria": "Code should create multiple types of visualizations (time series, bar, scatter, histogram, box plot) with proper formatting, labels, and focused on specified columns."
+}

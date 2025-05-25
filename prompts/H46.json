@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform advanced data cleaning on the penguins.csv dataset. The code should: 1) Load the dataset using pandas. 2) For the numerical columns `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, and `body_mass_g`, impute any NA values using K-Nearest Neighbors imputation (e.g., with `sklearn.impute.KNNImputer`, n_neighbors=3). 3) For the categorical column `sex`, impute NA values with the mode of the column. 4) Print the number of remaining NA values in each column after imputation to verify. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Data Cleaning",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, correctly apply KNN imputation for specified numerical columns, impute `sex` NAs with the mode, and verify no NAs remain in these columns."
+}

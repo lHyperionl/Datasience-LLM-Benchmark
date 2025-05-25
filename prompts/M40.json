@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the imdb_top_250.csv dataset using pandas. The code should: 1) Group the data by the `Year` column. 2) For each year, calculate the average `Rating` and the average `Runtime`. 3) Create a line plot showing the trend of average `Rating` over the `Year`. Ensure the plot has a title and labeled axes. Use matplotlib or seaborn for plotting. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Time Series EDA",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should properly load CSV, group by `Year`, calculate average `Rating` and `Runtime` per year, and plot average `Rating` over `Year` with title and labels."
+}

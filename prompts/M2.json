@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to analyze pH groups in the winequality-red.csv dataset. The code should: 1) Categorize wines based on 'pH' values into three groups: Low pH (< 3.2), Medium pH (3.2 to 3.4), and High pH (> 3.4), 2) Calculate and report the average 'quality' for each pH group, 3) Perform an ANOVA test to determine if there is a statistically significant difference in mean 'quality' scores among these pH groups, 4) Create a visualization showing average qualities with error bars representing 95% confidence intervals. Include proper imports (pandas, matplotlib, scipy.stats, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Statistical Analysis",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should correctly categorize pH groups, calculate group means, perform ANOVA test, and create appropriate visualization with confidence intervals."
+}

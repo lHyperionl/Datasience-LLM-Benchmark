@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing movie ratings:\n\nimport pandas as pd\ndata = {\n    \"MovieID\": [\"M01\", \"M02\", \"M03\", \"M04\", \"M05\"],\n    \"Title\": [\"Inception\", \"The Dark Knight\", \"Pulp Fiction\", \"Forrest Gump\", \"The Matrix\"],\n    \"Genre\": [\"Sci-Fi\", \"Action\", \"Crime\", \"Drama\", \"Sci-Fi\"],\n    \"Year\": [2010, 2008, 1994, 1994, 1999],\n    \"Rating\": [8.8, 9.0, 8.9, 8.8, 8.7],\n    \"Votes\": [2200000, 2500000, 1900000, 1800000, 1700000]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Print the \"Title\" of the movie with the highest \"Rating\". 2) Print the average \"Year\" of all movies in the list. Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, identify the highest-rated movie by title, and calculate the average release year."
+}

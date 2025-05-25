@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to prepare the penguins.csv dataset for a classification task. The goal is to predict `species`. The code should: 1) Load the dataset using pandas. 2) Select the features: `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, `body_mass_g`, `island`, and `sex`. The target variable is `species`. 3) For numerical features (`culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, `body_mass_g`), impute NA values with the mean of their respective columns. 4) For the `sex` column, impute NA values with the string 'Unknown'. Then, map 'MALE' to 0, 'FEMALE' to 1, and 'Unknown' to -1. 5) Apply one-hot encoding to the `island` column. 6) Print the shape of the resulting feature matrix and the first 5 rows of the processed features. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, select specified features and target, correctly impute NAs in numerical features with mean, impute and encode `sex` as specified, one-hot encode `island`, and show the shape and head of the processed feature matrix."
+}

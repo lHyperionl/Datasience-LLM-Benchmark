@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the heart.csv dataset and perform an independent two-sample t-test. The code should: 1) Load the dataset. 2) Create two groups based on the `Sex` column: one for males ('M') and one for females ('F'). 3) Perform an independent two-sample t-test to determine if there is a statistically significant difference in the mean `Cholesterol` levels between male and female patients. 4) Clearly state the null and alternative hypotheses for this test. 5) Print the calculated t-statistic and the p-value. 6) Based on a significance level of alpha = 0.05, interpret the p-value and state whether to reject the null hypothesis. Include proper imports (pandas, scipy.stats) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should correctly load data, separate by `Sex` ('M', 'F'), perform a t-test on their `Cholesterol` values, state hypotheses, report t-statistic and p-value, and correctly interpret the result based on alpha = 0.05."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform hypothesis testing on the video_games_sales.csv dataset. The code should: 1) Load the dataset and clean any missing values, 2) Test whether Nintendo games have significantly higher global sales compared to all other publishers combined (use t-test), 3) Test if there's a significant difference in average global sales between Action and Sports genres (use t-test), 4) Perform a chi-square test to determine if there's an association between Genre and Platform (focus on top 5 genres and top 5 platforms by count), 5) Test if games released after 2000 have significantly different sales than games released before 2000 (use Mann-Whitney U test), 6) Display p-values and interpret results with significance level α=0.05. Include proper imports and statistical tests. Assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing and Statistical Analysis",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should perform multiple statistical tests (t-test, chi-square, Mann-Whitney U), handle data preparation, and provide proper interpretation of results."
+}

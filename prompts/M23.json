@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the clash_royale_cards.csv dataset using pandas. The code should: 1) Group the data by the `rarity` column. 2) For each card rarity, calculate the average `elixirCost`, average `Win Rate`, and average `Usage`. 3) Display these calculated average values for each rarity. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should properly load CSV, group data by the `rarity` column, and correctly calculate and display the average `elixirCost`, `Win Rate`, and `Usage` for each rarity."
+}

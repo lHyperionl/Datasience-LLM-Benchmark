@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing patient admissions:\n\nimport pandas as pd\ndata = {\n    \"PatientID\": [\"P001\", \"P002\", \"P003\", \"P004\", \"P005\", \"P006\"],\n    \"AdmissionDate\": pd.to_datetime([\"2025-01-10\", \"2025-01-12\", \"2025-01-15\", \"2025-01-18\", \"2025-01-20\", \"2025-01-22\"]),\n    \"DischargeDate\": pd.to_datetime([\"2025-01-15\", \"2025-01-16\", \"2025-01-22\", \"2025-01-25\", \"2025-01-24\", \"2025-01-28\"]),\n    \"Diagnosis\": [\"Flu\", \"Cold\", \"Flu\", \"Injury\", \"Cold\", \"Flu\"],\n    \"Age\": [34, 56, 23, 45, 67, 30],\n    \"Gender\": [\"Male\", \"Female\", \"Female\", \"Male\", \"Male\", \"Female\"]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Calculate a new column \"LengthOfStay\" in days (DischargeDate - AdmissionDate). 2) Filter the DataFrame to include only patients with the \"Diagnosis\" of \"Flu\". 3) For these Flu patients, calculate and print their average \"LengthOfStay\". Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Data Manipulation",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate LengthOfStay, filter for Flu diagnosis, and accurately calculate their average LengthOfStay."
+}

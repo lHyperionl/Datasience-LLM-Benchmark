@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform text analysis on the `Title` column of the imdb_top_250.csv dataset. The code should: 1) Load the dataset. 2) Create a new feature called `title_length` representing the number of characters in each movie `Title`. 3) Calculate and print the Pearson correlation coefficient between `title_length` and the `Rating` column. 4) Preprocess all movie titles: convert to lowercase, remove punctuation (characters that are not alphanumeric or whitespace), and tokenize into words. 5) Remove common English stop words from the tokenized titles. 6) Find and print the 10 most common words across all processed titles, along with their frequencies. Include proper imports (pandas, string, nltk.corpus, nltk.tokenize, collections.Counter) and ensure NLTK stopwords resource is available or downloaded. Assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Text Analysis",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should load data, create `title_length`, calculate its correlation with `Rating`. It must preprocess titles (lowercase, remove punctuation, tokenize), remove stopwords, and correctly identify and print the 10 most common words with their frequencies."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform feature engineering and advanced data analysis on the video_games_sales.csv dataset. The code should: 1) Load the dataset and handle missing values, 2) Create engineered features: 'Sales_Ratio_NA_EU' (NA_Sales/EU_Sales), 'Publisher_Avg_Sales' (average global sales per publisher), 'Genre_Market_Share' (percentage of total sales by genre), 'Platform_Popularity' (number of games per platform), 'Sales_Momentum' (difference between Global_Sales and median sales for that year), 3) Perform correlation analysis between all numerical features and visualize with a heatmap, 4) Use PCA to reduce dimensionality and explain variance, 5) Apply polynomial features (degree 2) to sales columns and analyze their impact, 6) Create interaction features between Year and Genre, 7) Identify and handle outliers using IQR method. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering and Advanced Analytics",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should create multiple engineered features, perform correlation analysis, apply PCA, create polynomial and interaction features, and handle outliers."
+}

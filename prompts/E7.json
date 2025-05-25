@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic exploratory data analysis on the water_potability.csv dataset. The code should: 1) Load the dataset and display the first 10 rows, 2) Show the shape of the dataset (rows and columns), 3) List all column names and their data types, 4) Calculate the percentage of potable vs non-potable water samples, 5) Display the count of missing values for each column, 6) Show basic summary statistics for all numerical columns. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "water_potability.csv",
+  "evaluation_criteria": "Code should properly load CSV, display dataset information, calculate potability percentages, identify missing values, and show summary statistics."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the imdb_top_250.csv dataset and perform an independent two-sample t-test. The code should: 1) Load the dataset. 2) Create two groups of movies based on the `Year` column: those released before 1990 (`Year` < 1990) and those released in or after 1990 (`Year` >= 1990). 3) Perform an independent two-sample t-test to determine if there is a statistically significant difference in the mean `Rating` between these two groups. 4) Clearly state the null and alternative hypotheses for this test. 5) Print the calculated t-statistic and the p-value. 6) Based on a significance level of alpha = 0.05, interpret the p-value and state whether to reject the null hypothesis. Include proper imports (pandas, scipy.stats) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should correctly load data, create two groups based on `Year` (<1990 and >=1990), perform a t-test on their `Rating` values, state hypotheses, report t-statistic and p-value, and correctly interpret the result based on alpha = 0.05."
+}

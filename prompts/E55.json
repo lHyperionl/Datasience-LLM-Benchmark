@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing social media post engagement:\n\nimport pandas as pd\ndata = {\n    \"PostID\": [\"SM01\", \"SM02\", \"SM03\", \"SM04\", \"SM05\"],\n    \"Platform\": [\"Instagram\", \"Twitter\", \"Facebook\", \"Instagram\", \"Twitter\"],\n    \"PostType\": [\"Image\", \"Text\", \"Video\", \"Image\", \"Text\"],\n    \"Likes\": [150, 80, 300, 200, 90],\n    \"Shares\": [20, 15, 50, 30, 10],\n    \"Comments\": [10, 5, 25, 15, 8]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Print the total number of \"Likes\" across all posts. 2) Find and print the \"PostType\" that has the highest average number of \"Shares\". Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate total likes, and identify the post type with the highest average shares."
+}

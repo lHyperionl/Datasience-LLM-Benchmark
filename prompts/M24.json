@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to prepare data from clash_royale_cards.csv for a classification task. The code should: 1) Load the dataset. 2) Create a new binary target column named `is_high_win_rate`. This column should be 1 if `Win Rate` is greater than 55, and 0 otherwise. 3) Select the following features: `elixirCost`, `Usage`, and `rarity`. 4) Apply one-hot encoding to the categorical `rarity` column. 5) Split the data (features and the new `is_high_win_rate` target column) into training and testing sets, using an 80/20 split and a `random_state` of 42. Include proper imports (pandas, sklearn.model_selection, sklearn.preprocessing) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should correctly load data, create the `is_high_win_rate` target column, select specified features, one-hot encode `rarity`, and split data into training/testing sets with the specified parameters."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform K-Means clustering and PCA on the penguins.csv dataset. The code should: 1) Load the dataset. 2) Select the features: `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, and `body_mass_g`. 3) Drop any rows where any of these four selected features have missing values (NA). 4) Standardize these features using StandardScaler. 5) Apply K-Means clustering to the standardized features. Use K=3 clusters, `n_init='auto'`, and `random_state=42`. 6) Apply Principal Component Analysis (PCA) to reduce the standardized features to 2 principal components. 7) Create a scatter plot of the two principal components, coloring the points by their K-Means assigned cluster labels. Add a title to this plot. 8) Create a second scatter plot of the two principal components, this time coloring the points by the original `species` labels (ensure `species` corresponds to the rows used for clustering after NA removal). Add a title to this plot for comparison. Include proper imports. Assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Clustering",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, select and clean (drop NAs) the four numerical features, standardize them, apply K-Means (K=3, random_state=42), perform PCA to 2 components, and generate two scatter plots of PCA components: one colored by K-Means labels, and another by original `species` labels."
+}

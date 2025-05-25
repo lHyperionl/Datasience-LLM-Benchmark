@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build and evaluate a logistic regression model for survival prediction on the titanic.csv dataset. The code should: 1) Perform data preprocessing including handling missing values, encoding categorical variables, and feature scaling, 2) Split the data into training and testing sets (80/20), 3) Train a logistic regression model to predict survival, 4) Evaluate the model using accuracy, precision, recall, F1-score, and ROC-AUC, 5) Display feature coefficients and their interpretation, 6) Create a confusion matrix and ROC curve visualization, 7) Perform cross-validation to assess model stability. Include proper imports (pandas, sklearn, matplotlib, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Classification",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should preprocess data correctly, build logistic regression model, evaluate with multiple metrics, visualize results, and perform cross-validation."
+}

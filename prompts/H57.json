@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing movie ratings:\n\nimport pandas as pd\ndata = {\n    \"MovieID\": [\"M01\", \"M02\", \"M03\", \"M04\", \"M05\", \"M06\", \"M07\", \"M08\"],\n    \"Title\": [\"Inception\", \"The Dark Knight\", \"Pulp Fiction\", \"Forrest Gump\", \"The Matrix\", \"Interstellar\", \"The Lion King\", \"Fight Club\"],\n    \"Genre\": [\"Sci-Fi\", \"Action\", \"Crime\", \"Drama\", \"Sci-Fi\", \"Sci-Fi\", \"Animation\", \"Drama\"],\n    \"Year\": [2010, 2008, 1994, 1994, 1999, 2014, 1994, 1999],\n    \"Rating\": [8.8, 9.0, 8.9, 8.8, 8.7, 8.6, 8.5, 8.8],\n    \"Votes\": [2200000, 2500000, 1900000, 1800000, 1700000, 1600000, 900000, 2000000]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Calculate a \"WeightedRating\" for each movie using the formula: (\"Rating\" * \"Votes\") / (sum of all \"Votes\"). 2) Add this \"WeightedRating\" as a new column to the DataFrame. 3) Print the \"Title\" and \"WeightedRating\" of the movie with the highest \"WeightedRating\". Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Feature Engineering & Ranking",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate the WeightedRating as specified, add it as a new column, and identify the movie with the highest WeightedRating."
+}

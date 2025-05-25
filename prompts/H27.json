@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform feature engineering and train a Gradient Boosting Classifier on the iris.csv dataset. The code should: 1) Load the dataset. 2) Create two new features: `PetalArea` (calculated as `PetalLengthCm` * `PetalWidthCm`) and `SepalArea` (calculated as `SepalLengthCm` * `SepalWidthCm`). 3) Define features `X` using the original four numerical features (`SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, `PetalWidthCm`) AND the two newly created features (`PetalArea`, `SepalArea`). 4) Define target `y` using the `Species` column and encode it. 5) Train a Gradient Boosting Classifier (`n_estimators=100`, `random_state=42`). 6) Perform 5-fold cross-validation on this model using the defined features and target. 7) Report the mean cross-validated accuracy score. Include proper imports (pandas, sklearn.model_selection, sklearn.preprocessing, sklearn.ensemble) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Feature Engineering",
+  "dataset_reference": "iris.csv",
+  "evaluation_criteria": "Code should correctly load data, create `PetalArea` and `SepalArea` features. It must use these two new features plus `SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, `PetalWidthCm` as input for a Gradient Boosting Classifier (target `Species`, encoded). It should perform 5-fold cross-validation and report the mean cross-validated accuracy."
+}

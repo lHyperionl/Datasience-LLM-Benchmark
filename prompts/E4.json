@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic exploratory data analysis on the titanic.csv dataset. The code should: 1) Load the dataset and display the first 5 rows, 2) Show the shape of the dataset (rows and columns), 3) List all column names and their data types, 4) Calculate the survival rate (percentage of passengers who survived), 5) Show the count of missing values for each column. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should properly load CSV, display basic dataset information, calculate survival rate, and identify missing values correctly."
+}

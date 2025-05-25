@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the spotify_2023.csv dataset using pandas. The code should: 1) Clean the `in_shazam_charts` column by removing any commas and then converting it to a numeric data type (coerce errors to NaN and report count of NaNs). 2) Group the data by `key` and `mode`. 3) For each combination of `key` and `mode`, calculate and display the average `danceability_%` and average `valence_%`. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Cleaning",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code should load CSV, correctly clean and convert `in_shazam_charts` to numeric (reporting NaNs), group by `key` and `mode`, and calculate average `danceability_%` and `valence_%` for each group."
+}

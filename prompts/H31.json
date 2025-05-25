@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build a classification model to predict song popularity from spotify_2023.csv. The code should: 1) Load data. 2) Convert `streams` to numeric (coerce errors to NaN). Drop rows where `streams` is NaN. 3) Create a binary target variable `is_popular`, where 1 indicates `streams` is above its 75th percentile, and 0 otherwise. 4) Select features: `danceability_%`, `energy_%`, `valence_%`, `acousticness_%`, `bpm`, `artist_count`. 5) One-hot encode categorical features `key` and `mode`. Combine these with other selected features. 6) Split data into training (80%) and testing (20%) sets (`random_state=42`). 7) Train a Logistic Regression model (default parameters, `max_iter=1000`). 8) Evaluate using F1-score (macro), ROC AUC score. Display the confusion matrix for the test set. Include proper imports (pandas, numpy, sklearn.model_selection, sklearn.linear_model, sklearn.preprocessing, sklearn.metrics) and assume CSV is in current directory. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Classification",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code must convert `streams` to numeric, create `is_popular` (75th percentile threshold), use specified features (`danceability_%`, `energy_%`, `valence_%`, `acousticness_%`, `bpm`, `artist_count`) plus one-hot encoded `key` & `mode`. Train Logistic Regression, report F1 (macro), ROC AUC, and confusion matrix."
+}

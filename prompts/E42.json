@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the imdb_top_250.csv dataset using pandas. The code should: 1) Create a histogram to visualize the distribution of the `Rating` column. 2) Create a scatter plot to visualize the relationship between `Rating` (y-axis) and `Runtime` (x-axis). 3) Ensure both plots have appropriate titles and axis labels. Use matplotlib or seaborn for plotting. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should properly load CSV, generate a histogram for `Rating`, a scatter plot for `Rating` vs. `Runtime`, and include titles and axis labels for both."
+}

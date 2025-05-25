@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame:\n\nimport pandas as pd\ndata = {\n    \"UserID\": [\"User1\", \"User2\", \"User3\", \"User4\", \"User5\", \"User6\"],\n    \"SessionDurationMinutes\": [15, 25, 10, 30, 22, 18],\n    \"PagesViewed\": [5, 8, 3, 10, 7, 6],\n    \"DeviceType\": [\"Desktop\", \"Mobile\", \"Desktop\", \"Mobile\", \"Desktop\", \"Mobile\"],\n    \"Converted\": [True, False, False, True, True, False]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, prepare the data for a classification model to predict the \"Converted\" status. The code should: 1) Create a new numerical feature \"DeviceType_Numeric\" by mapping \"Desktop\" to 0 and \"Mobile\" to 1. 2) Create another new feature \"PagesPerMinute\" calculated as \"PagesViewed\" / \"SessionDurationMinutes\". Handle any potential division by zero by replacing resulting NaNs or Infs with 0. 3) Select \"SessionDurationMinutes\", \"PagesViewed\", \"DeviceType_Numeric\", and \"PagesPerMinute\" as the feature set. 4) Print the head of this new feature DataFrame. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Feature Engineering",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, create \"DeviceType_Numeric\" and \"PagesPerMinute\" features as specified (including handling division by zero for the latter), select the correct final features, and print the head of the resulting DataFrame."
+}

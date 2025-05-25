@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code for feature importance analysis and exploratory data visualization on the penguins.csv dataset. The code should: 1) Load the dataset. 2) Impute missing values: for `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, `body_mass_g` use their respective means; for `sex` use its mode. Drop rows if `island` is NA. 3) Define features `X` using the four imputed numerical measurements, plus one-hot encoded `island` and one-hot encoded imputed `sex`. The target `y` is `species` (label encoded). 4) Train a GradientBoostingClassifier (`n_estimators=100`, `random_state=42`) to predict `species` using these features. 5) Extract and print the feature importances from the trained model, associating them with their original feature names (including those derived from one-hot encoding). 6) For each `species`, create box plots to visualize the distribution of `flipper_length_mm` (using imputed data) grouped by the imputed `sex` column. Ensure plots have titles. Include proper imports. Assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Feature Engineering",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, correctly impute NAs (numerical with mean, sex with mode, drop island NAs), one-hot encode categoricals, train GradientBoostingClassifier for `species`, print feature importances with names. It must also generate box plots of `flipper_length_mm` per `species` grouped by imputed `sex`."
+}

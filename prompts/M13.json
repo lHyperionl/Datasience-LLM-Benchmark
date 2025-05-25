@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform hypothesis testing and statistical analysis on the diabetes.csv dataset. The code should: 1) Load the dataset and clean zero values by replacing them with NaN and then median imputation, 2) Test whether diabetic patients have significantly higher glucose levels compared to non-diabetic patients (use t-test), 3) Test if there's a significant difference in BMI between diabetic and non-diabetic groups (use Mann-Whitney U test), 4) Perform a chi-square test to determine if age groups (young: <30, middle: 30-50, older: >50) are associated with diabetes outcome, 5) Test correlation between pregnancies and age using Pearson correlation coefficient with significance testing, 6) Perform ANOVA to test if glucose levels differ significantly across BMI categories (underweight, normal, overweight, obese), 7) Display p-values and interpret results with significance level α=0.05. Include proper imports and statistical tests. Assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing and Statistical Analysis",
+  "dataset_reference": "diabetes.csv",
+  "evaluation_criteria": "Code should perform multiple statistical tests (t-test, Mann-Whitney U, chi-square, correlation, ANOVA), handle data preparation, and provide proper interpretation of results."
+}

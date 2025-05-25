@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the spotify_2023.csv dataset using pandas. The code should: 1) Filter the dataset to include only songs where `released_year` is 2023. 2) From this filtered dataset, select and display the `track_name`, `artist(s)_name`, and `streams` columns. 3) Ensure the `streams` column is treated as numeric (coerce errors to NaN if necessary). 4) Sort the resulting data by the `streams` column in descending order. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Manipulation",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code should load CSV, filter for `released_year` == 2023, select `track_name`, `artist(s)_name`, `streams`, ensure `streams` is numeric, and sort by `streams` descending."
+}

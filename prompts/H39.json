@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code for a comparative analysis of Apple products over years from the mobiles_2025.csv dataset. The code should: 1) Load the dataset. 2) Clean `RAM` (remove 'GB', to numeric), `Battery Capacity` (remove 'mAh', to numeric), and `Launched Price (USA)` (remove 'USD ', commas, to numeric). Handle conversion errors by setting to NaN and drop rows where any of these three cleaned columns are NaN. 3) Filter the data to include only records where `Company Name` is 'Apple'. 4) Group the filtered Apple data by `Launched Year`. 5) For each `Launched Year`, generate box plots to visualize and compare the distributions of the cleaned `RAM`, cleaned `Battery Capacity`, and cleaned `Launched Price (USA)`. Use subplots for clarity (e.g., one row of three subplots, or three separate figures). 6) Ensure all plots have appropriate titles (indicating the year and metric) and y-axis labels. Include proper imports (pandas, matplotlib.pyplot or seaborn) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Comparative Analysis",
+  "dataset_reference": "mobiles_2025.csv",
+  "evaluation_criteria": "Code should load CSV, clean `RAM`, `Battery Capacity`, `Launched Price (USA)` (handling NaNs for these), filter for Apple products, group by `Launched Year`, and generate comparative box plots (per year) for the distributions of these three metrics, with proper titles and labels."
+}

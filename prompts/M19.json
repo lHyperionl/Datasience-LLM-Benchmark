@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform time series analysis on the 'new_cases' for the location 'USA' from the synthetic_covid19_data.csv dataset. The code should: 1) Load the dataset, parse the 'date' column, and filter for 'location' == 'USA'. 2) Set the 'date' column as the index for the filtered data. 3) Resample the 'new_cases' data to a weekly frequency, taking the sum of cases for each week. 4) Perform time series decomposition (trend, seasonality, residuals) on the weekly 'new_cases' data using an additive model. 5) Plot the original time series and its decomposed components. 6) Check for stationarity of the weekly 'new_cases' time series using the Augmented Dickey-Fuller (ADF) test and print the test statistic and p-value. 7) If non-stationary, apply first-order differencing and re-test for stationarity. 8) Plot the ACF and PACF of the (potentially differenced) stationary time series. Include proper imports (pandas, statsmodels, matplotlib). Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Time Series Analysis",
+  "dataset_reference": "synthetic_covid19_data.csv",
+  "evaluation_criteria": "Code should filter data, resample time series, perform decomposition, conduct ADF test, apply differencing if needed, and plot ACF/PACF for 'new_cases' in the USA."
+}

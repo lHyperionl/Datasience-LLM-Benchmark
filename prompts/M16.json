@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform hypothesis testing and statistical analysis on the world-happiness-report-2021.csv dataset. The code should: 1) Load the dataset and handle any missing values, 2) Test whether Western European countries have significantly higher happiness scores compared to all other regions combined (use t-test), 3) Test if there's a significant difference in GDP per capita between the top 25% happiest countries and the bottom 25% (use Mann-Whitney U test), 4) Perform ANOVA to test if happiness scores differ significantly across all regional indicators, 5) Test the correlation between GDP per capita and Social support with statistical significance, 6) Perform a chi-square test to determine if happiness categories (High/Medium/Low) are associated with regional indicators, 7) Test if countries with above-median freedom scores have significantly different generosity levels (use t-test), 8) Display p-values and interpret results with significance level α=0.05. Include proper imports and statistical tests. Assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing and Statistical Analysis",
+  "dataset_reference": "world-happiness-report-2021.csv",
+  "evaluation_criteria": "Code should perform multiple statistical tests (t-test, Mann-Whitney U, ANOVA, correlation, chi-square), handle data preparation, and provide proper interpretation of results."
+}

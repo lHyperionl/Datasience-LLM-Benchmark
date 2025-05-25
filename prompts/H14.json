@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform advanced statistical modeling and Bayesian analysis on the diabetes.csv dataset. The code should: 1) Load and preprocess the dataset with comprehensive missing value handling, 2) Implement hierarchical Bayesian models using PyMC3 or PyMC4 to model diabetes risk with uncertainty quantification, 3) Build mixed-effects models to account for individual variability and group effects, 4) Perform Bayesian logistic regression with informative priors based on medical knowledge, 5) Implement Markov Chain Monte Carlo (MCMC) sampling for posterior inference, 6) Apply survival analysis techniques treating diabetes onset as time-to-event data (simulate time component), 7) Use Gaussian processes for non-parametric modeling of relationships between variables, 8) Implement causal inference methods (propensity score matching, instrumental variables) to identify causal relationships, 9) Perform Bayesian model comparison using WAIC and LOO cross-validation, 10) Create credible intervals and posterior predictive checks for model validation. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Advanced Statistical Modeling and Bayesian Analysis",
+  "dataset_reference": "diabetes.csv",
+  "evaluation_criteria": "Code should implement Bayesian modeling, MCMC sampling, mixed-effects models, survival analysis, Gaussian processes, causal inference, and comprehensive Bayesian model validation."
+}

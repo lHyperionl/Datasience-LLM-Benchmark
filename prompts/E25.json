@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the iris.csv dataset using pandas. The code should: 1) List all column names and identify the data type of each column. 2) For the numerical columns `SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, and `PetalWidthCm`, calculate and report basic descriptive statistics (mean, median, standard deviation, min, max). 3) Report the number of unique species in the `Species` column and their respective counts. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "iris.csv",
+  "evaluation_criteria": "Code should properly load CSV, identify column data types, calculate descriptive statistics for the specified numerical columns (`SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, `PetalWidthCm`), and report unique species counts from the `Species` column."
+}

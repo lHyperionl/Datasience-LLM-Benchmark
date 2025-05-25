@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that first creates a pandas DataFrame with student performance data: \n`data = {'StudentID': ['S001', 'S002', 'S003', 'S004', 'S005', 'S006', 'S007', 'S008', 'S009', 'S010'], 'Subject': ['Math', 'Science', 'Math', 'English', 'Science', 'Math', 'English', 'Science', 'Math', 'English'], 'Midterm_Score': [85, 92, 78, 88, 76, 95, 82, 89, 70, 91], 'Final_Score': [90, 88, 82, 92, 80, 91, 85, 93, 75, 89], 'Attendance_Rate': [0.95, 0.98, 0.85, 0.92, 0.80, 0.99, 0.88, 0.96, 0.75, 0.93]}`\nThen, using this DataFrame, the code should: 1) Add a new column 'Score_Improvement' calculated as 'Final_Score' - 'Midterm_Score'. 2) For each 'Subject', calculate and print the average 'Score_Improvement'. 3) Identify and print the 'StudentID' of the student(s) who achieved a 'Final_Score' greater than 90 and had an 'Attendance_Rate' of 0.95 or higher. Include necessary imports (pandas). Provide only the Python code.",
+  "difficulty": "medium",
+  "category": "Data Transformation & Analysis",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly create DataFrame, calculate 'Score_Improvement', calculate average improvement per subject, and identify students meeting the specified score and attendance criteria."
+}

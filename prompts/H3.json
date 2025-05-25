@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to develop a binary classification model using the winequality-red.csv dataset. The code should: 1) Create binary target variable where 'good' wines have quality >= 7 and 'bad' wines have quality < 7, 2) Preprocess the data (handle missing values if any, scale features appropriately), 3) Split data into 80/20 train/test sets, 4) Train a logistic regression model, 5) Evaluate performance using accuracy, F1-score, and classification report on the test set, 6) Report the most important features according to the model coefficients. Include proper imports (pandas, sklearn, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Machine Learning",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should correctly create binary target, preprocess data, train logistic regression, evaluate with appropriate metrics, and identify important features."
+}

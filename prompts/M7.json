@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform statistical analysis and hypothesis testing on the water_potability.csv dataset. The code should: 1) Conduct t-tests to compare mean values of each water quality parameter (pH, Hardness, Solids, etc.) between potable and non-potable water samples, 2) Perform chi-square goodness-of-fit test to check if potability follows expected distribution, 3) Apply normality tests (Shapiro-Wilk) on key numerical features, 4) Calculate effect sizes (Cohen's d) for significant differences, 5) Display p-values, test statistics, and interpretation of results for each test with appropriate significance level (α = 0.05). Include proper imports (pandas, scipy.stats, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "water_potability.csv",
+  "evaluation_criteria": "Code should correctly perform multiple statistical tests, calculate effect sizes, handle missing values, and interpret results with proper statistical methodology."
+}

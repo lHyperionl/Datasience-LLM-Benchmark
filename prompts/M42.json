@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the imdb_top_250.csv dataset and perform feature engineering. The code should: 1) Load the dataset. 2) Create a new column named `Decade` by categorizing the `Year` column. For example, years 1990-1999 should be '1990s', 2000-2009 should be '2000s', etc. 3) Display the `Title`, `Year`, and the new `Decade` column for the first 10 movies in the dataset. Include proper imports (pandas) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should properly load CSV, create a `Decade` column from `Year` by grouping years into decades (e.g., 1990s, 2000s), and display `Title`, `Year`, and `Decade` for the first 10 movies."
+}

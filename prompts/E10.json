@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic exploratory data analysis on the video_games_sales.csv dataset. The code should: 1) Load the dataset and display the first 10 rows, 2) Show the shape of the dataset (rows and columns), 3) List all column names and their data types, 4) Display the top 10 games by Global_Sales, 5) Show the unique values in the Platform and Genre columns, 6) Calculate basic summary statistics for all sales columns (NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales), 7) Identify any missing values in the dataset. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should properly load CSV, display dataset information, show top games, list unique platforms/genres, calculate summary statistics, and identify missing values."
+}

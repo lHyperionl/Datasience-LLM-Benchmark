@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to create visualizations for the diabetes.csv dataset. The code should: 1) Load the dataset, 2) Create a correlation heatmap showing relationships between all numerical variables, 3) Generate histograms for all numerical features to show their distributions, 4) Create box plots comparing each feature between diabetic and non-diabetic patients, 5) Plot a pie chart showing the distribution of diabetes outcomes, 6) Create scatter plots showing the relationship between BMI vs Glucose and Age vs Pregnancies, colored by diabetes outcome, 7) Generate a pair plot to visualize relationships between key features (Glucose, BMI, Age, Outcome). Use matplotlib and seaborn for plotting and include proper titles and labels for all charts. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "diabetes.csv",
+  "evaluation_criteria": "Code should create multiple types of visualizations (heatmap, histograms, box plots, pie chart, scatter plots, pair plot) with proper formatting and labels."
+}

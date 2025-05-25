@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic data cleaning on the water_potability.csv dataset. The code should: 1) Load the dataset and identify columns with missing values, 2) Fill missing values using appropriate strategies (mean for numerical columns), 3) Check for and remove any duplicate rows if they exist, 4) Verify that all values are within reasonable ranges for water quality parameters, 5) Create a summary showing before and after statistics (missing values count, dataset shape), 6) Display the first 5 rows of the cleaned dataset. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Cleaning",
+  "dataset_reference": "water_potability.csv",
+  "evaluation_criteria": "Code should handle missing values appropriately, remove duplicates, validate data ranges, and show cleaning impact with before/after comparisons."
+}

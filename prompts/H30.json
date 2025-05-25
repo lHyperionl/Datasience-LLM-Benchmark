@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to investigate the relationship between `Oldpeak` (ST depression induced by exercise relative to rest) and `HeartDisease` from the heart.csv dataset. The code should: 1) Load the dataset. 2) Create a box plot showing the distribution of `Oldpeak` for patients with `HeartDisease`=0 and `HeartDisease`=1. 3) Perform a logistic regression with only `Oldpeak` as the independent variable to predict `HeartDisease`. Report the coefficient for `Oldpeak` and interpret its meaning in the context of odds ratios. 4) Discretize the `Oldpeak` column into three equally sized bins (e.g., using `pd.qcut` for quantiles: low, medium, high). 5) Calculate and display the proportion of patients with `HeartDisease`=1 within each of these `Oldpeak` bins. Include proper imports (pandas, matplotlib.pyplot, seaborn, sklearn.linear_model, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Statistical Modeling",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should correctly load data, create a box plot of `Oldpeak` grouped by `HeartDisease`. It must perform logistic regression with `Oldpeak` predicting `HeartDisease`, report and interpret the coefficient. It should also discretize `Oldpeak` into 3 quantile-based bins and calculate the proportion of `HeartDisease`=1 in each bin."
+}

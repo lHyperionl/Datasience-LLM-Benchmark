@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the penguins.csv dataset and perform an independent two-sample t-test. The code should: 1) Load the dataset. 2) Filter the data to include only records where `species` is 'Adelie' or 'Gentoo'. 3) Within this filtered dataset, remove any rows where `flipper_length_mm` or `species` is missing (NA). 4) Perform an independent two-sample t-test to determine if there is a statistically significant difference in the mean `flipper_length_mm` between Adelie and Gentoo penguins. 5) Clearly state the null and alternative hypotheses for this test. 6) Print the calculated t-statistic and the p-value. 7) Based on a significance level of alpha = 0.05, interpret the p-value and state whether to reject the null hypothesis. Include proper imports (pandas, scipy.stats) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should correctly load data, filter for Adelie and Gentoo species, remove rows with NAs in `flipper_length_mm` or `species` from this subset, perform a t-test on their `flipper_length_mm`, state hypotheses, report t-statistic and p-value, and correctly interpret the result based on alpha = 0.05."
+}

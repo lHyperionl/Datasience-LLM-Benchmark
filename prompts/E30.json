@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the heart.csv dataset using pandas. The code should: 1) Generate a histogram to visualize the distribution of the `Age` column. 2) Generate a bar chart to show the distribution of the `Sex` column (M, F). 3) Ensure both plots have a title and labeled axes. Use matplotlib or seaborn for plotting. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should properly load CSV and generate a histogram for `Age` and a bar chart for `Sex` distribution, with appropriate labels and titles."
+}

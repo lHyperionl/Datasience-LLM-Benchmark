@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to implement advanced machine learning ensemble methods for the video_games_sales.csv dataset. The code should: 1) Load and preprocess the dataset, handling missing values and encoding categorical variables, 2) Create a regression target to predict Global_Sales, 3) Implement and compare multiple ensemble methods: Random Forest, Gradient Boosting, XGBoost, and AdaBoost regressors, 4) Use cross-validation with 5 folds to evaluate each model, 5) Implement a voting ensemble that combines all four models, 6) Perform hyperparameter tuning using GridSearchCV for the best individual model, 7) Create feature importance plots for ensemble models, 8) Evaluate models using MAE, MSE, RMSE, and R² score, 9) Implement stacking ensemble with a meta-learner (Linear Regression), 10) Analyze prediction errors and create residual plots. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Advanced Machine Learning and Ensemble Methods",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should implement multiple ensemble methods, perform hyperparameter tuning, create voting and stacking ensembles, and provide comprehensive evaluation with visualization."
+}

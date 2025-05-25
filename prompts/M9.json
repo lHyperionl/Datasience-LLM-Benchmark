@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform feature engineering and correlation analysis on the water_potability.csv dataset. The code should: 1) Create new meaningful features such as ratios between chemical parameters (e.g., pH/Chloramines, Hardness/Solids), interaction terms, and polynomial features, 2) Calculate correlation matrix for all features including engineered ones, 3) Identify the top 5 features most correlated with water potability, 4) Apply feature selection techniques (SelectKBest, RFE with Random Forest) to select optimal features, 5) Create advanced visualizations including correlation heatmap, feature importance plots, and pairwise scatter plots for top correlated features, 6) Compare feature sets selected by different methods and analyze their overlap. Include proper imports (pandas, sklearn, matplotlib, seaborn, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "water_potability.csv",
+  "evaluation_criteria": "Code should create meaningful engineered features, perform comprehensive correlation analysis, apply multiple feature selection methods, and create informative visualizations."
+}

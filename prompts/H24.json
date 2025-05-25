@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform a statistical test on the clash_royale_cards.csv dataset to determine if there is a significant difference in mean `Win Rate` across different card `rarity` categories. The `rarity` column contains categories like 'common', 'rare', 'epic', 'legendary', 'champion'. The code should: 1) Load the dataset. 2) Identify the unique categories in the `rarity` column. 3) Perform an Analysis of Variance (ANOVA) test to compare the mean `Win Rate` among these `rarity` groups. 4) State the null and alternative hypotheses for the test. 5) Print the F-statistic and the p-value from the ANOVA test. 6) Based on a significance level of alpha = 0.05, interpret the p-value and state whether to reject the null hypothesis. Include proper imports (pandas, scipy.stats) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should correctly load data, perform ANOVA to compare mean `Win Rate` across `rarity` groups, state hypotheses, report F-statistic and p-value, and correctly interpret the result based on alpha = 0.05."
+}

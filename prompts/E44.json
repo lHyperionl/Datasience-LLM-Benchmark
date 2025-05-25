@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the penguins.csv dataset using pandas. The code should: 1) Filter the dataset to include only records where the `species` column is 'Adelie' AND the `island` column is 'Torgersen'. 2) From this filtered dataset, select only the `culmen_length_mm` and `culmen_depth_mm` columns. 3) Drop any rows from this selection if either `culmen_length_mm` or `culmen_depth_mm` has a missing value. 4) Display the first 5 rows of the resulting DataFrame. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Manipulation",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should properly load CSV, filter for Adelie species on Torgersen island, select `culmen_length_mm` and `culmen_depth_mm`, drop rows with NAs in these two selected columns, and display the first 5 rows of the result."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to create visualizations for the video_games_sales.csv dataset. The code should: 1) Load the dataset, 2) Create a bar chart showing the top 10 gaming platforms by total global sales, 3) Generate a pie chart displaying the distribution of games across different genres, 4) Plot a histogram of Global_Sales to show the distribution of game sales, 5) Create a scatter plot showing the relationship between NA_Sales and EU_Sales, 6) Generate a line plot showing the trend of total games released per year over time. Use matplotlib for plotting and include proper titles and labels for all charts. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should create multiple types of visualizations (bar, pie, histogram, scatter, line) with proper formatting and labels."
+}

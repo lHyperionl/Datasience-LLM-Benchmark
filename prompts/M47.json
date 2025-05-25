@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code using pandas and seaborn to perform feature engineering and correlation analysis on the penguins.csv dataset. The code should: 1) Load the dataset. 2) Drop rows where `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, or `body_mass_g` are NA. 3) Create a new feature `culmen_area` calculated as `culmen_length_mm` * `culmen_depth_mm`. 4) Calculate the Pearson correlation matrix for the columns: `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, `body_mass_g`, and the new `culmen_area`. 5) Visualize this correlation matrix as a heatmap with correlation values annotated. Add a title 'Correlation Matrix of Penguin Measurements'. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, handle NAs in specified numeric columns by dropping rows, create the `culmen_area` feature, calculate the correlation matrix for the specified features, and visualize it as an annotated heatmap."
+}

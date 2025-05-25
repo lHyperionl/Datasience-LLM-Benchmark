@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the youtube_trendings.csv dataset using pandas. The code should: 1) For the `Video views` and `Likes` columns: remove any commas, convert them to numeric types (e.g., float), and if conversion fails for any value, treat that value as NaN, then fill all resulting NaNs in these columns with 0. 2) Fill any missing values in the `Category` column with the string 'Unknown'. 3) Group the data by the `Category` column. 4) For each category, calculate and display the sum of cleaned `Video views` and the sum of cleaned `Likes`. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Cleaning & Aggregation",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should properly load CSV, clean `Video views` and `Likes` (remove commas, numeric conversion, fill NaNs with 0), fill missing `Category` with 'Unknown', and then group by `Category` to calculate and display sum of cleaned views and likes per category."
+}

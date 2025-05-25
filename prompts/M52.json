@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame:\n\nimport pandas as pd\ndata = {\n    \"EmployeeID\": [\"E001\", \"E002\", \"E003\", \"E004\", \"E005\", \"E006\", \"E007\", \"E008\"],\n    \"Department\": [\"Sales\", \"HR\", \"Tech\", \"Sales\", \"Tech\", \"HR\", \"Tech\", \"Sales\"],\n    \"PerformanceScore\": [4, 3, 5, 2, 4, 3, 5, 4],\n    \"YearsExperience\": [5, 2, 8, 3, 6, 2, 10, 4],\n    \"ProjectsCompleted\": [10, 5, 15, 4, 12, 6, 20, 8],\n    \"TrainingHours\": [20, 40, 10, 50, 20, 30, 15, 25]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Filter the DataFrame to include only employees from the \"Tech\" department whose \"PerformanceScore\" is greater than 3. 2) For this filtered group, calculate and print the average number of \"ProjectsCompleted\". Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Data Manipulation",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, filter it based on \"Department\" and \"PerformanceScore\", and accurately calculate the average \"ProjectsCompleted\" for the filtered subset."
+}

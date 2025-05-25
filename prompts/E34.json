@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the youtube_trendings.csv dataset using pandas. The code should: 1) List all column names and their inferred data types. 2) For the columns `Video views`, `Likes`, and `Dislikes`: remove any commas, convert them to numeric types (e.g., float), and if conversion fails for any value, treat that value as NaN, then fill all resulting NaNs in these columns with 0. 3) Calculate and report basic descriptive statistics (mean, median, std, min, max) for these cleaned `Video views`, `Likes`, and `Dislikes` columns. 4) Fill any missing values in the `Category` column with the string 'Unknown'. 5) Report the count of unique values in the `Category` column. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should properly load CSV, clean specified numeric columns (`Video views`, `Likes`, `Dislikes`) by removing commas, converting to numeric, and filling NaNs with 0. It must calculate descriptive statistics for them, fill missing `Category` values with 'Unknown', and report unique category counts."
+}

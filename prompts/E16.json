@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic exploratory data analysis on the world-happiness-report-2021.csv dataset. The code should: 1) Load the dataset and display the first 10 rows, 2) Show the shape of the dataset (rows and columns), 3) List all column names and their data types, 4) Display the unique regional indicators and count of countries per region, 5) Show the top 10 happiest countries based on Ladder score, 6) Calculate basic summary statistics for key happiness factors (Ladder score, GDP per capita, Social support, Healthy life expectancy, Freedom to make life choices), 7) Identify any missing values in the dataset. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "world-happiness-report-2021.csv",
+  "evaluation_criteria": "Code should properly load CSV, display dataset information, show regional distribution, identify top countries, calculate summary statistics, and identify missing values."
+}

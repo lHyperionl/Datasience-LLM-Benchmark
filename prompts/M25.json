@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to prepare data from iris.csv for a classification task and train a K-Nearest Neighbors (KNN) classifier. The code should: 1) Load the dataset. 2) Define features `X` using columns `SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, and `PetalWidthCm`. 3) Define the target `y` using the `Species` column. 4) Encode the categorical `Species` target variable into numerical labels. 5) Split the data (`X` and encoded `y`) into training (70%) and testing (30%) sets, using `random_state=42`. 6) Train a K-Nearest Neighbors classifier with `n_neighbors=3` on the training data. 7) Make predictions on the test set and report the accuracy score. Include proper imports (pandas, sklearn.model_selection, sklearn.preprocessing, sklearn.neighbors) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Classification",
+  "dataset_reference": "iris.csv",
+  "evaluation_criteria": "Code should correctly load data, select specified features (`SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, `PetalWidthCm`) and target (`Species`), encode target, split data (70/30, random_state=42), train a KNN classifier (n_neighbors=3), and report accuracy on the test set."
+}

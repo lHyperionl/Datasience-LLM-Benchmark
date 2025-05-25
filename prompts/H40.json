@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the imdb_top_250.csv dataset and build a regression model. The code should: 1) Load the dataset. 2) Define features `X` using the `Year` and `Runtime` columns. 3) Define the target `y` using the `Rating` column. 4) Split the data into training (80%) and testing (20%) sets, using `random_state=42`. 5) Train a Linear Regression model on the training data. 6) Make predictions on the test set and evaluate the model using R-squared (R2) score and Mean Absolute Error (MAE). Include proper imports (pandas, sklearn.model_selection, sklearn.linear_model, sklearn.metrics) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Regression",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should correctly load data, select `Year` and `Runtime` as features and `Rating` as target, split data (80/20, random_state=42), train a Linear Regression model, and evaluate it using R-squared and MAE."
+}

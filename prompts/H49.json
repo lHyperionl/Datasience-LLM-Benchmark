@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame:\n\nimport pandas as pd\ndata = {\n    \"EmployeeID\": [\"E001\", \"E002\", \"E003\", \"E004\", \"E005\", \"E006\", \"E007\", \"E008\"],\n    \"Department\": [\"Sales\", \"HR\", \"Tech\", \"Sales\", \"Tech\", \"HR\", \"Tech\", \"Sales\"],\n    \"PerformanceScore\": [4, 3, 5, 2, 4, 3, 5, 4],\n    \"YearsExperience\": [5, 2, 8, 3, 6, 2, 10, 4],\n    \"ProjectsCompleted\": [10, 5, 15, 4, 12, 6, 20, 8],\n    \"TrainingHours\": [20, 40, 10, 50, 20, 30, 15, 25]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Calculate the Pearson correlation coefficient between \"PerformanceScore\" and \"YearsExperience\". 2) Calculate the Pearson correlation coefficient between \"PerformanceScore\" and \"TrainingHours\". 3) Print both correlation coefficients. 4) Determine and print which of the two features (\"YearsExperience\" or \"TrainingHours\") has a stronger absolute correlation with \"PerformanceScore\". Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Statistical Analysis",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate the specified Pearson correlation coefficients, print them, and correctly identify the feature with the stronger absolute correlation with \"PerformanceScore\"."
+}

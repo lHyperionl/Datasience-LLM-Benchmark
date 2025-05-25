@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing Pokemon stats:\n\nimport pandas as pd\ndata = {\n    \"PokemonID\": [1, 2, 3, 4, 5, 6],\n    \"Name\": [\"Bulbasaur\", \"Ivysaur\", \"Venusaur\", \"Charmander\", \"Charmeleon\", \"Charizard\"],\n    \"Type1\": [\"Grass\", \"Grass\", \"Grass\", \"Fire\", \"Fire\", \"Fire\"],\n    \"Type2\": [\"Poison\", \"Poison\", \"Poison\", None, None, \"Flying\"],\n    \"HP\": [45, 60, 80, 39, 58, 78],\n    \"Attack\": [49, 62, 82, 52, 64, 84],\n    \"Defense\": [49, 63, 83, 43, 58, 78]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Print the name of the Pokemon with the highest \"HP\". 2) Print the name of the Pokemon with the lowest \"Defense\". Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame and accurately identify and print the names of Pokemon with the highest HP and lowest Defense."
+}

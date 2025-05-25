@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to analyze correlations in the winequality-red.csv dataset. The code should: 1) Determine which features have the strongest positive and negative correlations with wine 'quality', 2) List the top 3 positively correlated and top 3 negatively correlated features with their correlation coefficients, 3) Create a correlation matrix heatmap for all numerical features, 4) For the single most positively and most negatively correlated features, create scatter plots showing their relationship with 'quality' and fit linear regression lines. Include proper imports (pandas, matplotlib, seaborn, scipy/sklearn for regression) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Statistical Analysis",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should calculate correlations correctly, identify top positive/negative correlations, create correlation heatmap, and generate scatter plots with regression lines."
+}

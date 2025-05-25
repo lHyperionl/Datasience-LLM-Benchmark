@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the clash_royale_cards.csv dataset using pandas. The code should: 1) Filter the dataset to include only cards with an `elixirCost` less than or equal to 3. 2) From this filtered dataset, select and display the `Card` name and `Win Rate` columns. 3) Sort the resulting data by `Win Rate` in descending order. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Manipulation",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should properly load CSV, filter cards based on `elixirCost` <= 3, select the `Card` and `Win Rate` columns, and sort the output by `Win Rate` descending."
+}

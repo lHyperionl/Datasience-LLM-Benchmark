@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build and evaluate classification models for diabetes prediction using the diabetes.csv dataset. The code should: 1) Load the dataset and preprocess it by handling missing values (zeros replaced with median), 2) Create additional features: 'Glucose_BMI_ratio', 'Age_group' (categorical), and 'Insulin_level' (low/normal/high based on tertiles), 3) Encode categorical variables and split data into training and testing sets (80-20 split), 4) Train and compare multiple classification models: Logistic Regression, Random Forest, Support Vector Machine, and Gradient Boosting, 5) Use cross-validation to evaluate each model, 6) Perform hyperparameter tuning for the best model using GridSearchCV, 7) Evaluate all models using accuracy, precision, recall, F1-score, and ROC-AUC, 8) Create confusion matrices and ROC curves for visualization, 9) Display feature importance for tree-based models. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Classification and Machine Learning",
+  "dataset_reference": "diabetes.csv",
+  "evaluation_criteria": "Code should create new features, train multiple classification models, perform hyperparameter tuning, and provide comprehensive evaluation with visualization."
+}

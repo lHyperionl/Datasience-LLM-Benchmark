@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the winequality-red.csv dataset using pandas. The code should: 1) List all column names and identify the data type of each column (numerical, categorical, etc.), 2) For all numerical columns, calculate and report basic descriptive statistics (mean, median, standard deviation, min, max, and quartiles), 3) Provide the total number of rows and columns in the dataset, 4) Identify any columns that appear to be categorical or ordinal. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should properly load CSV, identify data types, calculate descriptive statistics for numerical columns, and report dataset dimensions."
+}

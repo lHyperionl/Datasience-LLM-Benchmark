@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform advanced time series forecasting of 'new_cases' for a specific location, 'Germany', using the synthetic_covid19_data.csv dataset. The code should: 1) Load data, parse 'date', filter for 'Germany', and set 'date' as index. 2) Use 'new_cases' as the target variable. Consider 'stringency_index' and 'people_fully_vaccinated' as exogenous variables. Handle missing values in target and exogenous variables (e.g., forward fill or interpolation). 3) Split data into training and testing sets (e.g., last 30 days for testing). 4) Implement a SARIMA model. Determine appropriate (p,d,q)(P,D,Q,s) orders (e.g., using auto_arima or manual inspection of ACF/PACF, seasonal period s=7 for weekly seasonality). 5) Train the SARIMA model on the training set, including exogenous variables. 6) Forecast 'new_cases' on the test set. 7) Evaluate the forecast using Root Mean Squared Error (RMSE). 8) Plot the actual vs. forecasted values for the test period. Include proper imports (pandas, statsmodels.tsa.statespace.sarimax, pmdarima, sklearn.metrics). Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Time Series Analysis",
+  "dataset_reference": "synthetic_covid19_data.csv",
+  "evaluation_criteria": "Code should implement SARIMA forecasting for 'new_cases' in Germany, including exogenous variables, hyperparameter selection (orders), model training, forecasting, and RMSE evaluation."
+}

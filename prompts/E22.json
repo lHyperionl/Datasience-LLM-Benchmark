@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the clash_royale_cards.csv dataset using pandas. The code should: 1) List all column names and identify the data type of each column. 2) For the numerical columns `elixirCost`, `Win Rate`, and `Usage`, calculate and report basic descriptive statistics (mean, median, standard deviation, min, max). 3) Provide the total number of cards (rows) in the dataset. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should properly load CSV, identify column data types, calculate descriptive statistics for the specified numerical columns (`elixirCost`, `Win Rate`, `Usage`), and report the total number of rows."
+}

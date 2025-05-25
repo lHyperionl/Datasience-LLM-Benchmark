@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the iris.csv dataset and generate box plots. The code should: 1) Load the dataset. 2) For each of the four numerical features (`SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, `PetalWidthCm`), create a box plot showing its distribution. 3) Each box plot should be grouped by the `Species` column, so that for each feature, there are separate box plots for 'Iris-setosa', 'Iris-versicolor', and 'Iris-virginica'. 4) Ensure plots have appropriate titles indicating the feature being plotted. Use pandas and matplotlib or seaborn for plotting. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Visualization",
+  "dataset_reference": "iris.csv",
+  "evaluation_criteria": "Code should properly load CSV and generate a set of 4 box plots (one for each numerical feature: `SepalLengthCm`, `SepalWidthCm`, `PetalLengthCm`, `PetalWidthCm`), with each plot showing distributions grouped by the `Species` column. Plots should have titles."
+}

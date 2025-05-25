@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the heart.csv dataset using pandas. The code should: 1) List all column names and identify the data type of each column. 2) For the numerical columns `Age`, `RestingBP`, `Cholesterol`, and `MaxHR`, calculate and report basic descriptive statistics (mean, median, standard deviation, min, max). 3) Report the count of occurrences for each value in the `HeartDisease` column (0 for no disease, 1 for disease). Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should properly load CSV, identify column data types, calculate descriptive statistics for `Age`, `RestingBP`, `Cholesterol`, `MaxHR`, and report value counts for `HeartDisease`."
+}

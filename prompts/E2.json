@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to analyze the winequality-red.csv dataset. The code should: 1) Calculate and report the average (mean) 'quality' of the red wines, 2) Group the wines by their 'quality' score and calculate the average 'alcohol' content for each quality group, 3) Create a bar chart visualizing the relationship between 'quality' and average 'alcohol' content. Include proper imports (pandas, matplotlib/seaborn) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should calculate mean quality, group by quality to get average alcohol content, and create appropriate visualization."
+}

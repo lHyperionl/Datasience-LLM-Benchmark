@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build and evaluate a regression model to predict `Win Rate` from the clash_royale_cards.csv dataset. The code should: 1) Load the dataset. 2) Select `elixirCost`, `Usage`, and `rarity` as features. The `Win Rate` column is the target. 3) Preprocess the `rarity` column (e.g., using one-hot encoding). 4) Split the data into training (80%) and testing (20%) sets with `random_state=42`. 5) Train a regression model (e.g., Linear Regression or RandomForestRegressor). 6) Evaluate the model on the test set using R-squared (R2) score and Mean Squared Error (MSE). Include proper imports (pandas, sklearn.model_selection, sklearn.ensemble or sklearn.linear_model, sklearn.metrics, sklearn.preprocessing) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Regression",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should correctly load data, preprocess features including one-hot encoding for `rarity`, split data, train a regression model for `Win Rate` using `elixirCost`, `Usage`, and `rarity`, and evaluate it using R-squared and MSE."
+}

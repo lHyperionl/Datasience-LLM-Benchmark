@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the mobiles_2025.csv dataset using pandas. The code should: 1) Clean the `Mobile Weight` column by removing 'g' and converting to numeric. 2) Clean the `RAM` column by removing 'GB' and converting to numeric. 3) Clean the `Battery Capacity` column by removing 'mAh' and converting to numeric. 4) Clean the `Launched Price (USA)` column by removing 'USD ', removing commas, and converting to numeric. Handle any conversion errors by setting to NaN. 5) List all column names and their inferred data types after cleaning. 6) For the cleaned `Mobile Weight`, `RAM`, `Battery Capacity`, and `Launched Price (USA)` columns, calculate and report basic descriptive statistics (mean, median, std, min, max). 7) Report the count of unique values in the `Company Name` column. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "mobiles_2025.csv",
+  "evaluation_criteria": "Code should properly load CSV, clean specified columns (`Mobile Weight`, `RAM`, `Battery Capacity`, `Launched Price (USA)`) to numeric (handling errors), list data types, calculate descriptive statistics for cleaned columns, and count unique company names."
+}

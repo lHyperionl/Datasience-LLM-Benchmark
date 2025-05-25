@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to clean and preprocess the world-happiness-report-2021.csv dataset. The code should: 1) Load the dataset, 2) Handle any missing values by filling them with appropriate measures (mean for numerical, mode for categorical), 3) Create new derived features: 'Happiness_Category' (High: >6.5, Medium: 4-6.5, Low: <4), 'GDP_Category' (based on quartiles), 'Well_being_Score' (average of Social support, Healthy life expectancy, and Freedom), 4) Remove outliers using the IQR method for Ladder score, 5) Standardize numerical features using StandardScaler, 6) Encode the Regional indicator using label encoding, 7) Display the cleaned dataset's shape and first 5 rows. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Cleaning and Preprocessing",
+  "dataset_reference": "world-happiness-report-2021.csv",
+  "evaluation_criteria": "Code should handle missing values, create new categorical and composite features, remove outliers, apply scaling and encoding, and display cleaned data information."
+}

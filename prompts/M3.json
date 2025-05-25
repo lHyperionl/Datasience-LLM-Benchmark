@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to handle outliers in the winequality-red.csv dataset. The code should: 1) Identify potential outliers in the 'volatile acidity' and 'residual sugar' columns using the IQR (Interquartile Range) method, 2) Report the number of outliers found for each column, 3) Create a new dataset version where these identified outliers are capped at the 1.5*IQR bounds (winsorized), 4) Compare the mean and standard deviation of these two columns before and after outlier treatment. Include proper imports (pandas, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Preprocessing",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should correctly identify outliers using IQR method, perform winsorization, and compare statistics before/after treatment."
+}

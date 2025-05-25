@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the heart.csv dataset using pandas. The code should: 1) Filter the dataset to include only patients with `Age` greater than 50 AND `HeartDisease` equal to 1. 2) From this filtered dataset, select and display the `Age`, `Sex`, `ChestPainType`, and `Cholesterol` columns. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Manipulation",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should properly load CSV, filter records for `Age` > 50 and `HeartDisease` == 1, and select and display the `Age`, `Sex`, `ChestPainType`, and `Cholesterol` columns from the filtered data."
+}

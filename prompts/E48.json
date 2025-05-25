@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code using pandas to analyze the penguins.csv dataset. The code should: 1) Load the dataset. 2) Filter the data to include only penguins from the 'Torgersen' island. 3) For this filtered subset, count and print the number of penguins belonging to each `species`. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, correctly filter for 'Torgersen' island, and accurately count and print penguin occurrences for each species within that island."
+}

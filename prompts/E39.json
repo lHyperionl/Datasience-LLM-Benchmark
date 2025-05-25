@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the mobiles_2025.csv dataset using pandas. The code should: 1) Clean the `RAM` column by removing 'GB' and converting to numeric. Handle any conversion errors by setting to NaN. 2) Clean the `Battery Capacity` column by removing 'mAh' and converting to numeric. Handle any conversion errors by setting to NaN. 3) Create a scatter plot visualizing the relationship between the cleaned `Battery Capacity` (y-axis) and the cleaned `RAM` (x-axis). 4) Color the points in the scatter plot according to the `Company Name` column. 5) Ensure the plot has a title, and labels for the x-axis and y-axis. Include proper imports (pandas, matplotlib.pyplot or seaborn) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "mobiles_2025.csv",
+  "evaluation_criteria": "Code should properly load CSV, clean `RAM` and `Battery Capacity` to numeric (handling errors), generate a scatter plot of Battery Capacity vs. RAM, color points by Company Name, and include a title and axis labels."
+}

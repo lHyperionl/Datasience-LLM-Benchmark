@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the spotify_2023.csv dataset and build a simple regression model. The code should: 1) Load the dataset. 2) Ensure the `streams` column is numeric (coerce errors to NaN, then drop rows with NaN in `streams` or predictor columns for this task). 3) Select `in_spotify_playlists` and `energy_%` as features (X) and `streams` as the target (y). 4) Split the data into training (80%) and testing (20%) sets with `random_state=42`. 5) Train a Linear Regression model. 6) Evaluate the model on the test set and report the R-squared (R2) score and Mean Squared Error (MSE). Include proper imports (pandas, sklearn.model_selection, sklearn.linear_model, sklearn.metrics) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Regression",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code should load CSV, ensure `streams` is numeric (handling NaNs), use `in_spotify_playlists` and `energy_%` to predict `streams`, split data, train a Linear Regression model, and report R2 and MSE."
+}

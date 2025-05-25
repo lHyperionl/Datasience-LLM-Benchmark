@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build regression models to predict 'new_deaths' using the synthetic_covid19_data.csv dataset. The code should: 1) Load the dataset and parse 'date'. 2) Select features: 'new_cases', 'hosp_patients', 'icu_patients', 'reproduction_rate', 'stringency_index', 'people_fully_vaccinated', and 'median_age'. The target variable is 'new_deaths'. 3) Handle missing values in selected features and target by imputing with the median. 4) Encode the 'continent' column using one-hot encoding and add it to the features. 5) Scale all numerical features using StandardScaler. 6) Split the data into training (80%) and testing (20%) sets. 7) Train a Linear Regression model and a Random Forest Regressor model (n_estimators=100, random_state=42). 8) Evaluate both models using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²) on the test set. 9) Print the evaluation metrics for both models. Include proper imports (pandas, sklearn). Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Regression",
+  "dataset_reference": "synthetic_covid19_data.csv",
+  "evaluation_criteria": "Code should preprocess data (missing values, encoding, scaling), train Linear Regression and Random Forest Regressor models, and evaluate them using MAE, MSE, and R² to predict 'new_deaths'."
+}

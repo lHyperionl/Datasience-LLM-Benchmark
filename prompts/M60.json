@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing a book inventory:\n\nimport pandas as pd\ndata = {\n    \"BookID\": [\"B001\", \"B002\", \"B003\", \"B004\", \"B005\", \"B006\"],\n    \"Title\": [\"The Great Gatsby\", \"To Kill a Mockingbird\", \"1984\", \"Pride and Prejudice\", \"The Hobbit\", \"Animal Farm\"],\n    \"Author\": [\"F. Scott Fitzgerald\", \"Harper Lee\", \"George Orwell\", \"Jane Austen\", \"J.R.R. Tolkien\", \"George Orwell\"],\n    \"Genre\": [\"Classic\", \"Classic\", \"Dystopian\", \"Romance\", \"Fantasy\", \"Dystopian\"],\n    \"Stock\": [12, 8, 15, 7, 20, 10],\n    \"Price\": [10.99, 9.50, 12.00, 8.75, 15.25, 7.99]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Filter the DataFrame to show only books where the \"Genre\" is \"Dystopian\". 2) For these Dystopian books, calculate and print the average \"Stock\". Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Data Filtering & Aggregation",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, filter for Dystopian genre, and accurately calculate the average stock for that genre."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing a book inventory:\n\nimport pandas as pd\ndata = {\n    \"BookID\": [\"B001\", \"B002\", \"B003\", \"B004\", \"B005\"],\n    \"Title\": [\"The Great Gatsby\", \"To Kill a Mockingbird\", \"1984\", \"Pride and Prejudice\", \"The Hobbit\"],\n    \"Author\": [\"F. Scott Fitzgerald\", \"Harper Lee\", \"George Orwell\", \"Jane Austen\", \"J.R.R. Tolkien\"],\n    \"Genre\": [\"Classic\", \"Classic\", \"Dystopian\", \"Romance\", \"Fantasy\"],\n    \"Stock\": [12, 8, 15, 7, 20],\n    \"Price\": [10.99, 9.50, 12.00, 8.75, 15.25]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Print the \"Title\" of the book with the highest \"Price\". 2) Print the total number of books currently in \"Stock\". Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, identify the most expensive book by title, and calculate the total stock."
+}

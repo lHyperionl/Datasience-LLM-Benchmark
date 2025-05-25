@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build regression models for happiness prediction using the world-happiness-report-2021.csv dataset. The code should: 1) Load the dataset and preprocess it by handling missing values and encoding categorical variables, 2) Create target variable using Ladder score and features using GDP per capita, Social support, Healthy life expectancy, Freedom, Generosity, and Perceptions of corruption, 3) Split the data into training and testing sets (80-20 split), 4) Train and compare multiple regression models: Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor, and Gradient Boosting Regressor, 5) Perform hyperparameter tuning for the best model using GridSearchCV, 6) Evaluate all models using MAE, MSE, RMSE, and R² score, 7) Create residual plots and feature importance visualizations, 8) Implement cross-validation to assess model stability, 9) Make predictions for new hypothetical countries and analyze results. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Regression and Predictive Modeling",
+  "dataset_reference": "world-happiness-report-2021.csv",
+  "evaluation_criteria": "Code should preprocess data, train multiple regression models, perform hyperparameter tuning, evaluate with multiple metrics, create visualizations, and implement cross-validation."
+}

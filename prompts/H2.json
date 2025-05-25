@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform comparative analysis on the winequality-red.csv dataset. The code should: 1) Define 'low quality' wines (score <= 4), 'medium quality' (score 5-6), and 'high quality' (score >= 7), 2) For each chemical property, perform appropriate statistical tests (ANOVA or Kruskal-Wallis based on normality assumptions) to determine significant differences across quality groups, 3) For properties showing significant differences, perform post-hoc tests (Tukey's HSD or Dunn's test), 4) Create box plots visualizing distributions of key differing features across the three quality tiers, 5) Summarize which features significantly differ between groups. Include proper imports (pandas, scipy.stats, matplotlib, seaborn, statsmodels) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Statistical Testing",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should correctly categorize quality groups, apply appropriate statistical tests, perform post-hoc analysis, and create meaningful visualizations."
+}

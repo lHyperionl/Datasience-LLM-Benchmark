@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the iris.csv dataset using pandas. The code should: 1) Create a scatter plot visualizing the relationship between `SepalLengthCm` (x-axis) and `SepalWidthCm` (y-axis). 2) Color the points in the scatter plot according to the `Species` column. 3) Ensure the plot has a title, and labels for the x-axis and y-axis. Include proper imports (pandas, matplotlib.pyplot) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "iris.csv",
+  "evaluation_criteria": "Code should properly load CSV and generate a scatter plot of `SepalLengthCm` vs `SepalWidthCm`, with points colored by the `Species` column, and include a title and axis labels."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing Pokemon stats:\n\nimport pandas as pd\ndata = {\n    \"PokemonID\": [1, 2, 3, 4, 5, 6, 7, 8, 9],\n    \"Name\": [\"Bulbasaur\", \"Ivysaur\", \"Venusaur\", \"Charmander\", \"Charmeleon\", \"Charizard\", \"Squirtle\", \"Wartortle\", \"Blastoise\"],\n    \"Type1\": [\"Grass\", \"Grass\", \"Grass\", \"Fire\", \"Fire\", \"Fire\", \"Water\", \"Water\", \"Water\"],\n    \"Type2\": [\"Poison\", \"Poison\", \"Poison\", None, None, \"Flying\", None, None, None],\n    \"HP\": [45, 60, 80, 39, 58, 78, 44, 59, 79],\n    \"Attack\": [49, 62, 82, 52, 64, 84, 48, 63, 83],\n    \"Defense\": [49, 63, 83, 43, 58, 78, 65, 80, 100],\n    \"Speed\": [45, 60, 80, 65, 80, 100, 43, 58, 78]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Add a new column \"TotalStats\" which is the sum of \"HP\", \"Attack\", \"Defense\", and \"Speed\". 2) Identify and print the \"Name\" of the Pokemon with the highest \"TotalStats\". 3) For each \"Type1\", calculate and print the average \"Speed\". Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Feature Engineering & Aggregation",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, create the \"TotalStats\" column, find the Pokemon with the highest total stats, and calculate average speed per Type1."
+}

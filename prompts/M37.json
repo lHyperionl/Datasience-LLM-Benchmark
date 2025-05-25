@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the mobiles_2025.csv dataset using pandas. The code should: 1) Clean the `Launched Price (USA)` column by removing 'USD ', removing commas, and converting to numeric. Handle conversion errors by setting to NaN. 2) Clean the `Screen Size` column by removing ' inches' and converting to numeric. Handle conversion errors by setting to NaN. 3) Group the data by `Company Name` and `Launched Year`. 4) For each group, calculate the average of the cleaned `Launched Price (USA)` and the average of the cleaned `Screen Size`. 5) Display the resulting aggregated data. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Data Aggregation",
+  "dataset_reference": "mobiles_2025.csv",
+  "evaluation_criteria": "Code should properly load CSV, clean `Launched Price (USA)` and `Screen Size` to numeric (handling errors), group by `Company Name` and `Launched Year`, and correctly calculate and display the average cleaned US price and screen size for each group."
+}

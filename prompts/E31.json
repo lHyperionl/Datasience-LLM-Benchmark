@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the spotify_2023.csv dataset using pandas. The code should: 1) List all column names and identify the data type of each. 2) Convert the `streams` column to a numeric data type, handling potential errors by coercing non-numeric values to NaN, then report any NaNs. 3) For the numerical columns `streams` (after conversion), `bpm`, `danceability_%`, `valence_%`, and `energy_%`, calculate and report basic descriptive statistics (mean, median, std, min, max). 4) Report the total number of unique artists found in the `artist(s)_name` column. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code should load CSV, list columns/types, correctly convert `streams` to numeric (reporting NaNs), calculate descriptive stats for `streams`, `bpm`, `danceability_%`, `valence_%`, `energy_%`, and count unique artists in `artist(s)_name`."
+}

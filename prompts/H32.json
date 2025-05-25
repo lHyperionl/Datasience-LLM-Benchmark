@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform K-Means clustering on spotify_2023.csv audio features. The code should: 1) Load data. 2) Select audio features: `danceability_%`, `energy_%`, `valence_%`, `acousticness_%`, `instrumentalness_%`, `liveness_%`, `speechiness_%`, `bpm`. Drop rows with any NaNs in these selected features. 3) Standardize these features using StandardScaler. 4) Apply K-Means clustering with K=4, `random_state=42`, and `n_init='auto'`. 5) Reduce standardized features to 2 principal components using PCA (`random_state=42`). 6) Create a scatter plot of the two principal components, coloring points by their K-Means assigned cluster labels. Add a title. 7) For each cluster, calculate and display the mean values of the original (unstandardized) selected audio features. Include proper imports (pandas, sklearn.preprocessing, sklearn.cluster, sklearn.decomposition, matplotlib.pyplot) and assume CSV is in current directory. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Clustering",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code must select and standardize specified audio features (handling NaNs). Apply K-Means (K=4, random_state=42, n_init='auto'). Perform PCA to 2 components (random_state=42). Visualize clusters with PCA plot. Report mean original audio features per cluster."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the iris.csv dataset using pandas. The code should: 1) Filter the dataset to include only records where the `Species` column is 'Iris-setosa'. 2) From this filtered dataset, select and display only the `SepalLengthCm` and `SepalWidthCm` columns. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Manipulation",
+  "dataset_reference": "iris.csv",
+  "evaluation_criteria": "Code should properly load CSV, filter records for `Species` == 'Iris-setosa', and select and display the `SepalLengthCm` and `SepalWidthCm` columns from the filtered data."
+}

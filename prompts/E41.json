@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the imdb_top_250.csv dataset using pandas. The code should: 1) Filter the dataset to include only movies with a `Rating` greater than or equal to 9.0. 2) From this filtered dataset, select and display the `Title` and `Rating` columns. 3) Sort the resulting data by `Rating` in descending order. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Manipulation",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should properly load CSV, filter movies with `Rating` >= 9.0, select `Title` and `Rating` columns, and sort by `Rating` descending."
+}

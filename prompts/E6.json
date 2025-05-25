@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic data cleaning on the titanic.csv dataset. The code should: 1) Load the dataset and identify columns with missing values, 2) Fill missing Age values with the median age, 3) Fill missing Embarked values with the most frequent port, 4) Drop the Cabin column due to excessive missing values, 5) Create a new column 'Title' extracted from the Name column (Mr., Mrs., Miss., Master., etc.), 6) Display the cleaned dataset's shape and the first 5 rows. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Cleaning",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should handle missing values appropriately, extract titles from names, drop unnecessary columns, and display the cleaned dataset."
+}

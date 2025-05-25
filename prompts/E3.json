@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to analyze the winequality-red.csv dataset. The code should: 1) Filter wines that have an 'alcohol' content greater than 12% AND a 'pH' value less than 3.3, 2) From this filtered subset, identify the wine with the highest 'quality' score, 3) Display all features of this specific wine. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Filtering",
+  "dataset_reference": "winequality-red.csv",
+  "evaluation_criteria": "Code should correctly apply compound filtering conditions, find maximum quality in filtered subset, and display all features of the selected wine."
+}

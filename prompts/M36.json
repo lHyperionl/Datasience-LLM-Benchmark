@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the youtube_trendings.csv dataset and perform feature engineering. The code should: 1) Load the dataset. 2) For the `Likes` and `Dislikes` columns: remove any commas, convert them to numeric types (e.g., float), and if conversion fails for any value, treat that value as NaN, then fill all resulting NaNs in these columns with 0. 3) Create a new column `TotalEngagement` calculated as the sum of cleaned `Likes` and cleaned `Dislikes`. 4) Create another new column `LikeDislikeRatio` calculated as cleaned `Likes` / (cleaned `Dislikes` + 1). The +1 in the denominator is to avoid division by zero if cleaned `Dislikes` is 0. 5) Display the `Video` title, the newly created `TotalEngagement`, and `LikeDislikeRatio` columns for all videos. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Feature Engineering",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should load CSV, clean `Likes` and `Dislikes` (commas, numeric, fill NaNs with 0), create `TotalEngagement` (cleaned Likes + cleaned Dislikes), create `LikeDislikeRatio` (cleaned Likes / (cleaned Dislikes + 1)), and display `Video`, `TotalEngagement`, and `LikeDislikeRatio`."
+}

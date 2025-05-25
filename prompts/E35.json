@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the youtube_trendings.csv dataset using pandas. The code should: 1) For the `Video views` column: remove any commas, convert it to a numeric type (e.g., float), and if conversion fails for any value, treat that value as NaN, then fill all resulting NaNs with 0. 2) Filter the dataset to include only videos where the cleaned `Video views` is greater than 50,000,000. 3) From this filtered dataset, select and display the `Video` (title) and the cleaned `Video views` columns. 4) Sort the resulting data by the cleaned `Video views` in descending order. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Manipulation",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should properly load CSV, clean the `Video views` column (remove commas, convert to numeric, fill NaNs with 0), filter videos with views > 50,000,000, select `Video` and cleaned `Video views`, and sort by views descending."
+}

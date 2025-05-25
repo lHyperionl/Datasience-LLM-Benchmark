@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform basic text feature analysis on video titles from the youtube_trendings.csv dataset. The code should: 1) Load the dataset. 2) For the `Video` column (which contains video titles), create a new feature `title_word_count` representing the number of words in each title. 3) For the `Video views` column: remove commas, convert to numeric, and fill resulting NaNs with 0. 4) Calculate and print the Pearson correlation coefficient between `title_word_count` and the cleaned `Video views`. 5) Filter the dataset for videos where the `published` year is 2023 or 2024. 6) For these filtered videos, extract all words from their `Video` titles. Convert words to lowercase, remove punctuation, and then remove common English stop words. 7) From this list of processed words, find and print the 5 most common words. Include proper imports (pandas, re, collections.Counter, and a source for English stop words like nltk.corpus.stopwords or a predefined list) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Text Feature EDA",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should load data, create `title_word_count` from `Video` titles. Clean `Video views` (commas, numeric, fill NaNs with 0). Calculate correlation between `title_word_count` and cleaned `Video views`. For videos from 2023-2024, process their titles (lowercase, remove punctuation, remove stop words) and find the 5 most common words."
+}

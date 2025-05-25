@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform hypothesis testing on the synthetic_covid19_data.csv dataset. The code should: 1) Load the dataset and handle missing values in relevant columns by median imputation ('reproduction_rate', 'stringency_index', 'median_age', 'total_deaths', 'population', 'new_cases'). 2) Test if the mean 'reproduction_rate' is significantly different across continents (Asia, Europe, North America only). Use ANOVA. 3) Test if there is a significant correlation between 'stringency_index' and 'new_cases'. Use Pearson correlation. 4) Create a binary category for 'high_death_rate_country' based on whether a country's 'total_deaths' / 'population' is above the 75th percentile of this ratio across all countries (use latest entry per country). Test if the 'median_age' is significantly different between 'high_death_rate_country' and others. Use an appropriate t-test. 5) For each test, state the null hypothesis, print the p-value, and conclude whether to reject the null hypothesis at α=0.05. Include proper imports (pandas, scipy.stats, statsmodels). Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "synthetic_covid19_data.csv",
+  "evaluation_criteria": "Code should perform ANOVA for 'reproduction_rate' by continent, Pearson correlation for 'stringency_index' and 'new_cases', and a t-test for 'median_age' based on a derived high death rate category, interpreting p-values correctly."
+}

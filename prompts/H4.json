@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build an advanced ensemble learning model for survival prediction on the titanic.csv dataset. The code should: 1) Implement comprehensive data preprocessing including advanced feature engineering (polynomial features, interaction terms, text mining from names), handling missing values with multiple imputation strategies, 2) Build and tune multiple base models (Random Forest, Gradient Boosting, SVM, Neural Network) using GridSearchCV or RandomizedSearchCV, 3) Create stacking and voting ensemble classifiers combining the best models, 4) Implement feature selection using multiple techniques and compare their impact, 5) Perform extensive model evaluation with stratified k-fold cross-validation, learning curves, and validation curves, 6) Apply SHAP or LIME for model interpretability and feature importance analysis, 7) Compare all models and ensembles with comprehensive performance metrics and statistical significance tests. Include proper imports (pandas, sklearn, xgboost, shap, numpy, matplotlib) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Advanced Machine Learning",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should implement advanced preprocessing, multiple ML algorithms with hyperparameter tuning, ensemble methods, comprehensive evaluation, and model interpretability techniques."
+}

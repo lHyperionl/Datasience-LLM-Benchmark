@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to analyze trends in audio features of popular songs over years from spotify_2023.csv. The code should: 1) Load data. 2) Convert `streams` to numeric (coerce errors to NaN). 3) Filter for songs with `streams` greater than 10,000,000 and where `released_year` is between 2010 and 2023, inclusive. Drop rows with NaN `streams` after conversion. 4) Group the filtered data by `released_year`. 5) For each year, calculate the average `danceability_%`, `energy_%`, and `valence_%`. 6) Create line plots for each of these three average audio features over `released_year`. Each plot should have a title and labeled axes. Display all three plots. Include proper imports (pandas, matplotlib.pyplot) and assume CSV is in current directory. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Trend Analysis",
+  "dataset_reference": "spotify_2023.csv",
+  "evaluation_criteria": "Code must convert `streams` to numeric. Filter songs with `streams` > 10M and `released_year` between 2010-2023. Group by `released_year`, calculate yearly average `danceability_%`, `energy_%`, `valence_%`. Plot these three yearly averages as line plots with titles/labels."
+}

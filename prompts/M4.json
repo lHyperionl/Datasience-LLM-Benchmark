@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform statistical analysis and hypothesis testing on the titanic.csv dataset. The code should: 1) Conduct a chi-square test to determine if there's a significant association between passenger class (Pclass) and survival, 2) Perform a t-test to compare the ages of survivors vs non-survivors, 3) Use ANOVA to test if there are significant differences in fare prices across the three passenger classes, 4) Calculate and interpret effect sizes for each test, 5) Display p-values, test statistics, and conclusions for each hypothesis test with appropriate alpha level (0.05). Include proper imports (pandas, scipy.stats, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "titanic.csv",
+  "evaluation_criteria": "Code should correctly perform chi-square test, t-test, and ANOVA, calculate effect sizes, and interpret results with proper statistical methodology."
+}

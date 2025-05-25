@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing social media post engagement:\n\nimport pandas as pd\ndata = {\n    \"PostID\": [\"SM01\", \"SM02\", \"SM03\", \"SM04\", \"SM05\", \"SM06\"],\n    \"Platform\": [\"Instagram\", \"Twitter\", \"Facebook\", \"Instagram\", \"Twitter\", \"Instagram\"],\n    \"PostType\": [\"Image\", \"Text\", \"Video\", \"Image\", \"Text\", \"Video\"],\n    \"Likes\": [150, 80, 300, 200, 90, 450],\n    \"Shares\": [20, 15, 50, 30, 10, 60],\n    \"Comments\": [10, 5, 25, 15, 8, 30]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Create a new feature \"EngagementScore\" calculated as: Likes + (Shares * 2) + (Comments * 3). 2) Filter the DataFrame to include only posts from the \"Instagram\" platform. 3) For these Instagram posts, calculate and print their average \"EngagementScore\". Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Feature Engineering & Filtering",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate EngagementScore, filter for Instagram posts, and accurately calculate their average EngagementScore."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the imdb_top_250.csv dataset using pandas. The code should: 1) List all column names and their data types. 2) Calculate and report basic descriptive statistics (mean, median, standard deviation, min, max) for the numerical columns `Year`, `Rating`, and `Runtime`. 3) Report the total number of movies in the dataset. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should properly load CSV, identify column data types, calculate descriptive statistics for `Year`, `Rating`, `Runtime`, and report the total number of movies."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to clean and preprocess the diabetes.csv dataset. The code should: 1) Load the dataset, 2) Identify columns with zero values that represent missing data (Glucose, BloodPressure, SkinThickness, Insulin, BMI should not be zero), 3) Replace zero values in these columns with NaN, 4) Handle missing values by filling them with the median of each respective column, 5) Remove any duplicate rows if they exist, 6) Create a new column 'BMI_Category' that categorizes BMI into 'Underweight' (<18.5), 'Normal' (18.5-24.9), 'Overweight' (25-29.9), and 'Obese' (>=30), 7) Scale numerical features using StandardScaler, 8) Display the cleaned dataset's shape and first 5 rows. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Cleaning and Preprocessing",
+  "dataset_reference": "diabetes.csv",
+  "evaluation_criteria": "Code should identify and handle missing values represented as zeros, create new categorical features, apply scaling, and display cleaned data information."
+}

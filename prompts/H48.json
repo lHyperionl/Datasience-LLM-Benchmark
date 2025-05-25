@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to build and evaluate a Random Forest classification model to predict penguin `species` using the penguins.csv dataset. The code should: 1) Load the dataset. 2) Define features: `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, `body_mass_g`, `island`, `sex`. Target: `species`. 3) Preprocessing: a) For numerical features, impute NAs with the column median. b) For `sex`, impute NAs with the mode. c) One-hot encode `island` and `sex` (after mode imputation for sex). d) Ensure `species` is label encoded if it's not already numeric. 4) Split the data into training (75%) and testing (25%) sets, ensuring stratification by `species`. Use a `random_state` of 42 for reproducibility. 5) Train a `RandomForestClassifier` (e.g., from `sklearn.ensemble`, `n_estimators=100`, `random_state=42`). 6) Make predictions on the test set. 7) Print the accuracy score and a classification report (precision, recall, F1-score) for the model. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Classification",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, perform specified preprocessing (median imputation for numeric, mode for sex, OHE for island & sex, label encode target), stratify split data, train RandomForest, and evaluate with accuracy and classification report."
+}

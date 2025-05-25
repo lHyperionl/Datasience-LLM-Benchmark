@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform advanced statistical modeling and time series analysis on the video_games_sales.csv dataset. The code should: 1) Load the dataset and aggregate sales data by year, 2) Implement ARIMA modeling to forecast future global sales trends, 3) Perform seasonal decomposition of the time series data, 4) Build a multivariate regression model with interaction terms to predict Global_Sales using Year, Genre, Platform, and Publisher, 5) Implement polynomial regression with regularization (Ridge and Lasso), 6) Use Bayesian regression with PyMC3 or similar to model uncertainty in predictions, 7) Perform change point detection to identify significant shifts in gaming industry trends, 8) Implement survival analysis to model 'game longevity' (years a game remains profitable), 9) Create confidence intervals and prediction intervals for all models, 10) Validate models using time series cross-validation. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Advanced Statistical Modeling and Time Series Analysis",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should implement ARIMA forecasting, seasonal decomposition, multivariate regression, regularization, Bayesian modeling, change point detection, and survival analysis with proper validation."
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform K-Means clustering on selected numerical features from the heart.csv dataset. The code should: 1) Load the dataset. 2) Select the following numerical features for clustering: `Age`, `RestingBP`, `Cholesterol`, `MaxHR`, and `Oldpeak`. 3) Standardize these selected features using StandardScaler. 4) Determine an appropriate number of clusters (K) for K-Means, trying values for K from 2 to 5. Use the elbow method (plotting Within-Cluster Sum of Squares - WCSS) and silhouette scores to justify your choice of K. 5) Apply K-Means clustering with the chosen K, using `n_init='auto'` and `random_state=42`. 6) Reduce the dimensionality of the standardized features to 2 components using PCA. 7) Create a scatter plot of the two principal components, coloring the points by their assigned K-Means cluster labels. Add a title to this plot. Include proper imports (pandas, sklearn.preprocessing, sklearn.cluster, sklearn.decomposition, matplotlib.pyplot) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Clustering",
+  "dataset_reference": "heart.csv",
+  "evaluation_criteria": "Code should correctly load data, select and standardize features (`Age`, `RestingBP`, `Cholesterol`, `MaxHR`, `Oldpeak`), implement methods (elbow and silhouette) to choose K for K-Means (between 2 and 5), apply K-Means (random_state=42), perform PCA to 2 components, and visualize the clusters using the first two principal components."
+}

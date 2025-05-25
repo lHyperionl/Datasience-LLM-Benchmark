@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform K-Means clustering on the clash_royale_cards.csv dataset. The code should: 1) Load the dataset. 2) Select the features `elixirCost`, `Win Rate`, and `Usage` for clustering. 3) Standardize these features using StandardScaler. 4) Determine an appropriate number of clusters (K) for K-Means, trying values for K from 2 to 7. You can use the elbow method (plotting WCSS) or silhouette scores to justify your choice of K. 5) Apply K-Means clustering with the chosen K. 6) Reduce the dimensionality of the standardized features to 2 components using PCA. 7) Create a scatter plot of the two principal components, coloring the points by their assigned cluster labels. Include proper imports (pandas, sklearn.cluster, sklearn.preprocessing, sklearn.decomposition, matplotlib) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Clustering",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should correctly load data, select and standardize features (`elixirCost`, `Win Rate`, `Usage`), implement a method to choose K for K-Means (between 2 and 7), apply K-Means, perform PCA, and visualize the clusters using the first two principal components."
+}

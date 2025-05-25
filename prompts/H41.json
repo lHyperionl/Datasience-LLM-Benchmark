@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform K-Means clustering on the imdb_top_250.csv dataset. The code should: 1) Load the dataset. 2) Select the features `Rating` and `Runtime` for clustering. 3) Standardize these features using StandardScaler. 4) Apply K-Means clustering to the standardized features, using K=3 clusters, `n_init='auto'`, and `random_state=42`. 5) Create a scatter plot of the original (non-standardized) `Runtime` (x-axis) vs. `Rating` (y-axis), coloring the points by their assigned K-Means cluster labels. Add a title and axis labels to this plot. 6) For each cluster, calculate and print the mean `Rating` and mean `Runtime`. Include proper imports (pandas, sklearn.preprocessing, sklearn.cluster, matplotlib.pyplot) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Clustering",
+  "dataset_reference": "imdb_top_250.csv",
+  "evaluation_criteria": "Code should correctly load data, select and standardize `Rating` and `Runtime` features, apply K-Means clustering (K=3, random_state=42), visualize clusters on a scatter plot of original `Runtime` vs. `Rating` colored by cluster, and report mean `Rating` and `Runtime` for each cluster."
+}

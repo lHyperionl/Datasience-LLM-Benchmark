@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame:\n\nimport pandas as pd\ndata = {\n    \"UserID\": [\"User1\", \"User2\", \"User3\", \"User4\", \"User5\", \"User6\"],\n    \"SessionDurationMinutes\": [15, 25, 10, 30, 22, 18],\n    \"PagesViewed\": [5, 8, 3, 10, 7, 6],\n    \"DeviceType\": [\"Desktop\", \"Mobile\", \"Desktop\", \"Mobile\", \"Desktop\", \"Mobile\"],\n    \"Converted\": [True, False, False, True, True, False]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Calculate and print the average \"SessionDurationMinutes\". 2) Count and print the number of users for each \"DeviceType\". Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, calculate the average session duration, and count users by device type."
+}

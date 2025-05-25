@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to prepare data from penguins.csv for classification and train a basic model. The code should: 1) Load the dataset. 2) Select the features `X` using columns: `culmen_length_mm`, `culmen_depth_mm`, `flipper_length_mm`, `body_mass_g`. The target `y` is the `species` column. 3) Drop any rows where `species` or any of the four selected feature columns have missing values (NA). 4) Encode the categorical `species` target variable into numerical labels. 5) Split the cleaned data (features `X` and encoded target `y`) into training (80%) and testing (20%) sets, using `random_state=42`. 6) Train a Logistic Regression model on the training data. Use default parameters but set `max_iter=1000` to ensure convergence. 7) Make predictions on the test set and report the accuracy score. Include proper imports (pandas, sklearn.model_selection, sklearn.preprocessing, sklearn.linear_model) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Classification",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, select specified features and target, drop rows with NAs in these columns, encode target, split data (80/20, random_state=42), train a Logistic Regression model (max_iter=1000), and report accuracy on the test set."
+}

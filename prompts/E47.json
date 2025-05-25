@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code using pandas and matplotlib/seaborn to visualize data from penguins.csv. The code should: 1) Load the dataset. 2) Drop rows where `flipper_length_mm` is NA. 3) Create a histogram of the `flipper_length_mm` column. Add a title 'Distribution of Flipper Length (mm)' and label the x-axis 'Flipper Length (mm)'. 4) Create a bar chart showing the counts of penguins for each `island`. Add a title 'Penguin Counts by Island' and label the axes appropriately. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, handle NAs in `flipper_length_mm` by dropping rows, generate a labeled histogram for `flipper_length_mm`, and a labeled bar chart for `island` counts."
+}

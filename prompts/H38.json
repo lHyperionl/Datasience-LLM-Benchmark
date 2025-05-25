@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform a price analysis on the mobiles_2025.csv dataset. The code should: 1) Load the dataset. 2) Define a function to clean price columns: remove currency symbols (PKR, INR, CNY, USD, AED) and commas, then convert to numeric. Handle errors by returning NaN. Apply this to `Launched Price (Pakistan)`, `Launched Price (India)`, `Launched Price (China)`, `Launched Price (USA)`, `Launched Price (Dubai)`. 3) For each mobile phone model, calculate its `Average Global Price`. This average should only consider countries for which price data is available (not NaN) for that specific model. 4) Identify the top 5 mobile phone models with the highest `Average Global Price`. 5) Display the `Model Name` and their calculated `Average Global Price` for these top 5 models, sorted by `Average Global Price` descending. Include proper imports (pandas, numpy) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "hard",
+  "category": "Price Analysis",
+  "dataset_reference": "mobiles_2025.csv",
+  "evaluation_criteria": "Code should load CSV, clean all five specified price columns to numeric (handling errors and currency symbols/commas), calculate `Average Global Price` per model using only available country prices, and correctly identify and display the top 5 models by this average price."
+}

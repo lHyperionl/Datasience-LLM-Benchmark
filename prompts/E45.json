@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the penguins.csv dataset using pandas. The code should: 1) Create a scatter plot of `culmen_length_mm` (x-axis) versus `culmen_depth_mm` (y-axis). 2) Color the points in the scatter plot according to the `species` column. 3) The plot should only include data points for which `culmen_length_mm`, `culmen_depth_mm`, AND `species` are all non-missing (not NA). 4) Ensure the plot has a title and labels for the x-axis and y-axis. Use matplotlib or seaborn for plotting. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should properly load CSV, filter out rows with NAs in `culmen_length_mm`, `culmen_depth_mm`, or `species`, generate a scatter plot of `culmen_length_mm` vs `culmen_depth_mm` colored by `species`, and include a title and axis labels."
+}

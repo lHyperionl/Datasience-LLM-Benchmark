@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the youtube_trendings.csv dataset and perform an independent two-sample t-test. The code should: 1) Load the dataset. 2) For the `Likes` column: remove any commas, convert it to a numeric type (e.g., float), and if conversion fails for any value, treat that value as NaN, then fill all resulting NaNs with 0. 3) Fill any missing values in the `Category` column with 'Unknown'. 4) Create two groups of cleaned `Likes` values: one for videos where `Category` is 'Music' and another for videos where `Category` is 'Sports'. 5) Perform an independent two-sample t-test to determine if there is a statistically significant difference in the mean cleaned `Likes` between these two categories. 6) Clearly state the null and alternative hypotheses for this test. 7) Print the calculated t-statistic and the p-value. 8) Based on a significance level of alpha = 0.05, interpret the p-value and state whether to reject the null hypothesis. Include proper imports (pandas, scipy.stats) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should load CSV, clean `Likes` (commas, numeric, fill NaNs with 0), fill missing `Category` with 'Unknown', perform t-test on cleaned `Likes` between 'Music' and 'Sports' categories, state hypotheses, report t-statistic & p-value, and interpret correctly based on alpha=0.05."
+}

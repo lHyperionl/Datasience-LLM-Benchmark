@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code that defines the following pandas DataFrame representing movie ratings:\n\nimport pandas as pd\ndata = {\n    \"MovieID\": [\"M01\", \"M02\", \"M03\", \"M04\", \"M05\", \"M06\"],\n    \"Title\": [\"Inception\", \"The Dark Knight\", \"Pulp Fiction\", \"Forrest Gump\", \"The Matrix\", \"Interstellar\"],\n    \"Genre\": [\"Sci-Fi\", \"Action\", \"Crime\", \"Drama\", \"Sci-Fi\", \"Sci-Fi\"],\n    \"Year\": [2010, 2008, 1994, 1994, 1999, 2014],\n    \"Rating\": [8.8, 9.0, 8.9, 8.8, 8.7, 8.6],\n    \"Votes\": [2200000, 2500000, 1900000, 1800000, 1700000, 1600000]\n}\ndf = pd.DataFrame(data)\n\nAfter creating the DataFrame, the code should: 1) Filter the DataFrame to include only movies with a \"Genre\" of \"Sci-Fi\". 2) For these Sci-Fi movies, calculate and print the average \"Rating\". Provide only Python code.",
+  "difficulty": "medium",
+  "category": "Data Filtering & Aggregation",
+  "dataset_reference": null,
+  "evaluation_criteria": "Code should correctly define the DataFrame, filter for Sci-Fi movies, and accurately calculate their average rating."
+}

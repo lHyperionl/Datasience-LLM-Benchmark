@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to create comprehensive visualizations for the world-happiness-report-2021.csv dataset. The code should: 1) Load the dataset, 2) Create a world map visualization showing happiness scores by country (use plotly or folium), 3) Generate a horizontal bar chart showing average happiness scores by region, 4) Create a correlation heatmap showing relationships between happiness factors, 5) Plot scatter plots showing the relationship between GDP per capita vs Ladder score and Social support vs Ladder score, 6) Generate box plots comparing happiness scores across different regions, 7) Create a radar chart showing the happiness profile of the top 5 happiest countries. Use matplotlib, seaborn, and plotly for visualizations and include proper titles and labels for all charts. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "world-happiness-report-2021.csv",
+  "evaluation_criteria": "Code should create multiple types of visualizations (map, bar chart, heatmap, scatter plots, box plots, radar chart) with proper formatting and labels."
+}

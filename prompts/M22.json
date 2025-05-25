@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the clash_royale_cards.csv dataset using pandas. The code should: 1) Select the numerical columns: `elixirCost`, `Win Rate`, `Usage`, `Win Rate Change`, and `Usage Change`. 2) Calculate the pairwise correlation matrix for these selected columns. 3) Visualize this correlation matrix using a heatmap (e.g., with seaborn). Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "medium",
+  "category": "Exploratory Data Analysis (EDA)",
+  "dataset_reference": "clash_royale_cards.csv",
+  "evaluation_criteria": "Code should properly load CSV, calculate the correlation matrix for the specified columns (`elixirCost`, `Win Rate`, `Usage`, `Win Rate Change`, `Usage Change`), and visualize it as a heatmap."
+}

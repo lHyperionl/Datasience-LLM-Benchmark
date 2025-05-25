@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the youtube_trendings.csv dataset using pandas. The code should: 1) For the `Likes` and `Video views` columns: remove any commas, convert them to numeric types (e.g., float), and if conversion fails for any value, treat that value as NaN, then fill all resulting NaNs in these columns with 0. 2) Create a scatter plot with the cleaned `Video views` on the x-axis and the cleaned `Likes` on the y-axis. 3) Ensure the plot has a title 'Video Views vs. Likes' and appropriate labels for the x-axis ('Video Views (cleaned)') and y-axis ('Likes (cleaned)'). Include proper imports (pandas, matplotlib.pyplot) and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Visualization",
+  "dataset_reference": "youtube_trendings.csv",
+  "evaluation_criteria": "Code should properly load CSV, clean `Likes` and `Video views` columns (remove commas, convert to numeric, fill NaNs with 0), and generate a scatter plot of cleaned Likes vs. cleaned Video Views with a title and axis labels."
+}

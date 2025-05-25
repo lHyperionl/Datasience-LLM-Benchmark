@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to load the penguins.csv dataset. The code should: 1) Read the dataset. 2) For the numerical columns `culmen_length_mm` and `culmen_depth_mm`, fill any NA values with the mean of their respective columns. 3) Calculate and print the mean, median, and standard deviation for the cleaned `culmen_length_mm` and `culmen_depth_mm` columns. 4) Print the total number of rows and columns in the dataset. Use pandas for data manipulation. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "easy",
+  "category": "Data Cleaning",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load the CSV, correctly fill NAs in specified columns with their means, calculate basic statistics for these columns, and report dataset dimensions."
+}

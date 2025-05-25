@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to perform a hypothesis test on the penguins.csv dataset. The code should: 1) Load the dataset using pandas. 2) Filter the dataset to include only 'Adelie' and 'Gentoo' species. 3) Handle NA values in the `culmen_length_mm` column for these two species by dropping rows with NAs in this column. 4) Perform an independent two-sample t-test (e.g., using `scipy.stats.ttest_ind`) to determine if there is a statistically significant difference in the mean `culmen_length_mm` between 'Adelie' and 'Gentoo' penguins. 5) Print the t-statistic and the p-value. 6) Based on a significance level of 0.05, state whether the null hypothesis (no difference in means) is rejected or not. Assume the CSV is in the current directory. Provide only Python code.",
+  "difficulty": "hard",
+  "category": "Hypothesis Testing",
+  "dataset_reference": "penguins.csv",
+  "evaluation_criteria": "Code should load data, filter for 'Adelie' and 'Gentoo' species, handle NAs in `culmen_length_mm` for these groups, correctly perform a t-test for `culmen_length_mm` between them, and interpret the result based on the p-value."
+}

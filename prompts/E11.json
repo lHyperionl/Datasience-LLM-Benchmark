@@ -1,0 +1,7 @@
+{
+  "prompt": "Write Python code to clean and preprocess the video_games_sales.csv dataset. The code should: 1) Load the dataset, 2) Handle missing values in the Year column by filling them with the median year, 3) Remove games with missing Publisher information, 4) Create a new column 'Years_Since_Release' that calculates how many years have passed since each game's release year (use 2023 as the current year), 5) Remove duplicate games (based on Name and Platform), 6) Filter out games with Global_Sales less than 0.1 million, 7) Display the cleaned dataset's shape and first 5 rows. Include proper imports and assume the CSV file is in the current directory. Provide only the Python code without explanations.",
+  "difficulty": "easy",
+  "category": "Data Cleaning and Preprocessing",
+  "dataset_reference": "video_games_sales.csv",
+  "evaluation_criteria": "Code should handle missing values, remove duplicates and low-selling games, create new features, and display cleaned data information."
+}
