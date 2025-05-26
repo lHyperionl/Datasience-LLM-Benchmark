@@ -26,7 +26,7 @@ This project is designed to benchmark and analyze the performance of various Lar
 *   **LLM Configurations (`configs/`)**: JSON files defining parameters and settings for each LLM tested.
 *   **Ground Truth (`ground_truth/`)**: Markdown files containing the expected or ideal outputs for benchmark tasks. These are used to evaluate the performance of the LLMs. Examples include [ground_truth/E3_gt.md](ground_truth/E3_gt.md) and [ground_truth/M6_gt.md](ground_truth/M6_gt.md).
 *   **Benchmark Analysis (`notebooks/LLM_Benchmark_Analysis.ipynb`)**: A Jupyter notebook ([notebooks/LLM_Benchmark_Analysis.ipynb](notebooks/LLM_Benchmark_Analysis.ipynb)) that processes the results from the `results/` directory, compares them against `ground_truth/`, and generates various performance metrics and visualizations. It analyzes aspects like average scores, task success rates, and performance by difficulty.
-*   **Streamlit Dashboard (`streamlit_app/`)**: An interactive web application built with Streamlit ([streamlit_app/app.py](streamlit_app/app.py)) to visualize and explore the benchmark results. It likely uses data processed by the analysis notebook.
+*   **Streamlit Dashboard (`streamlit_app/`)**: An interactive web application built with Streamlit ([streamlit_app/app.py](streamlit_app/app.py)) to visualize and explore the benchmark results.
 
 ## Getting Started
 
@@ -65,7 +65,6 @@ This project is designed to benchmark and analyze the performance of various Lar
 
 ## How it Works
 
-The project likely follows this workflow:
 1.  LLMs are prompted (using prompts from `prompts/`) to perform tasks on data from `datasets/`.
 2.  The configurations for these LLMs are stored in `configs/`.
 3.  The outputs (responses) from the LLMs are saved in the `results/` directory.
