@@ -31,14 +31,27 @@ This project is designed to benchmark and analyze the performance of various Lar
 ## Getting Started
 
 1.  **Setup**:
+    *   Open your terminal and run:
+        ```sh
+        git clone https://github.com/lHyperionl/Datasience-LLM-Benchmark.git
+        ```
     *   Ensure Python is installed. (Benchmark done on version 3.10)
     *   Install necessary dependencies. For the Streamlit app, refer to [streamlit_app/requirements.txt](streamlit_app/requirements.txt). The main analysis notebook ([notebooks/LLM_Benchmark_Analysis.ipynb](notebooks/LLM_Benchmark_Analysis.ipynb)) uses libraries like `pandas`, `matplotlib`, `seaborn`, and `numpy`.
+        ```sh
+        pip install -r streamlit_app/requirements.txt
+        pip install pandas matplotlib seaborn numpy
+        ```
 2.  **Running Benchmarks**:
-    *   Open your terminal and run: "git clone https://github.com/lHyperionl/Datasience-LLM-Benchmark.git" or download the the repo as zip file.
-    *   Run to go to the folder of benchmark: "cd .\Datascience_LLM_Benchmark\".
-    *   Make sure before running the benchmark you have settet up (input the api key from open router) your config/LLM_judge_config.json with the model you want to be the judge. Do the same for the model you want to test for example: config/gpt-4o.json.
-    *   Then run the benchmark as: "py .\src\main.py gpt-4o LLM_judge_config".
-    *   When the benchmark is done the results should appear in 'results/' directory.
+    *   Navigate to the project directory:
+        ```sh
+        cd Datascience-LLM-Benchmark
+        ```
+    *   Make sure before running the benchmark you have settet up (input the api key from open router) your `config/LLM_judge_config.json` with the model you want to be the judge. Do the same for the model you want to test for example: `config/gpt-4o.json`.
+    *   Run the benchmark:
+        ```sh
+        py .\src\main.py gpt-4o LLM_judge_config
+        ```
+    *   When the benchmark is done the results should appear in `results/` directory.
 3.  **Analyzing Results**:
     *   Open and run the [notebooks/LLM_Benchmark_Analysis.ipynb](notebooks/LLM_Benchmark_Analysis.ipynb) Jupyter notebook to see a detailed breakdown of LLM performance. This notebook loads data, cleans scores (handling malformed scores as seen in its output), calculates statistics, and generates plots.
 4.  **Viewing Dashboard**:
