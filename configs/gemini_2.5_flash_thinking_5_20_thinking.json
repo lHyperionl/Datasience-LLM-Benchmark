@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "google/gemini-2.5-flash-preview-05-20:thinking"
     }
 }

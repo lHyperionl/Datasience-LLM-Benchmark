@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "anthropic/claude-3.5-sonnet"
     }
 }

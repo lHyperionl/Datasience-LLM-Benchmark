@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "openai/gpt-3.5-turbo"
     }
 }

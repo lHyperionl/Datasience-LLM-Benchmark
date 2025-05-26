@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "mistralai/mistral-small-24b-instruct-2501"
     }
 }

@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "mistralai/mistral-nemo"
     }
 }

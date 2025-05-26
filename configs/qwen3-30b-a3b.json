@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "qwen/qwen3-30b-a3b"
     }
 }

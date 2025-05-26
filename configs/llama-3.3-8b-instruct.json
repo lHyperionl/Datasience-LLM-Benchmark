@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "meta-llama/llama-3.3-8b-instruct:free"
     }
 }

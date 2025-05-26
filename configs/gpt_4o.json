@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "openai/chatgpt-4o-latest"
     }
 }

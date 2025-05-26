@@ -2,7 +2,7 @@
     "llm": {
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
-        "api_key": "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",
+        "api_key": "",
         "model": "deepseek/deepseek-chat-v3-0324:free"
     }
 }
