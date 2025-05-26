@@ -9,6 +9,7 @@ PRICING_CONFIG = {
     'claude-sonnet-4' : 6.640,
     'command-r7b-12-2024' : 0.014,
     'deepseek-v3': 0.189,
+    'deepseek-r1': 1.442,
     'gemini-1.5-flash' : 0.025,
     'gemini-2.0-flash' : 0.062,
     'gemini-2.5-flash-preview': 0.136,
@@ -16,8 +17,6 @@ PRICING_CONFIG = {
     'gemini-2.5-pro-preview' : 10.81,
     'gemma-3-12b-it' : 0.007,
     'gemma-3-27b-it' : 0.027,
-    'mistral-nemo' : 0.007,
-    'mistral-small-24b-instruct' : 0.018,
     'gpt-3.5-turbo' : 0.106,
     'gpt-4.1' : 0.994,
     'gpt-4.1-nano' : 0.043,
@@ -27,7 +26,10 @@ PRICING_CONFIG = {
     'llama-3.3-8b-instruct' : 0.0035,
     'llama-3.3-70b-instruct' : 0.037,
     'llama-4-maverick' : 0.064,
+    'mistral-nemo' : 0.007,
+    'mistral-small-24b-instruct' : 0.018,
     'o4-mini' : 0.939,
+    'qwen3-30b-a3b' : 0.016,
 }
 
 def clean_evaluation_score(score):
