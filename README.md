@@ -1,6 +1,6 @@
 # LLM Benchmark Project
 
-This project is designed to benchmark and analyze the performance of various Large Language Models (LLMs) on a set of tasks. It includes configurations for multiple models, datasets for testing, ground truth for evaluation, analysis notebooks, and a Streamlit application for interactive visualization of results.
+This project is designed to benchmark and analyze the performance of various Large Language Models (LLMs) on a set of tasks from datascience and data analytics. It includes configurations for multiple models, datasets for testing, ground truth for evaluation, analysis notebooks, and a Streamlit application for interactive visualization of results.
 
 ## Project Structure
 
@@ -31,10 +31,14 @@ This project is designed to benchmark and analyze the performance of various Lar
 ## Getting Started
 
 1.  **Setup**:
-    *   Ensure Python is installed.
+    *   Ensure Python is installed. (Benchmark done on version 3.10)
     *   Install necessary dependencies. For the Streamlit app, refer to [streamlit_app/requirements.txt](streamlit_app/requirements.txt). The main analysis notebook ([notebooks/LLM_Benchmark_Analysis.ipynb](notebooks/LLM_Benchmark_Analysis.ipynb)) uses libraries like `pandas`, `matplotlib`, `seaborn`, and `numpy`.
 2.  **Running Benchmarks**:
-    *   (Details would be added here if known - e.g., scripts in `src/` to run the benchmarks using `configs/` and `prompts/` against `datasets/`, storing outputs in `results/`)
+    *   Open your terminal and run: "git clone https://github.com/lHyperionl/Datasience-LLM-Benchmark.git" or download the the repo as zip file.
+    *   Run to go to the folder of benchmark: "cd .\Datascience_LLM_Benchmark\".
+    *   Make sure before running the benchmark you have settet up (input the api key from open router) your config/LLM_judge_config.json with the model you want to be the judge. Do the same for the model you want to test for example: config/gpt-4o.json.
+    *   Then run the benchmark as: "py .\src\main.py gpt-4o LLM_judge_config".
+    *   When the benchmark is done the results should appear in 'results/' directory.
 3.  **Analyzing Results**:
     *   Open and run the [notebooks/LLM_Benchmark_Analysis.ipynb](notebooks/LLM_Benchmark_Analysis.ipynb) Jupyter notebook to see a detailed breakdown of LLM performance. This notebook loads data, cleans scores (handling malformed scores as seen in its output), calculates statistics, and generates plots.
 4.  **Viewing Dashboard**:
@@ -44,6 +48,7 @@ This project is designed to benchmark and analyze the performance of various Lar
         streamlit run app.py
         ```
     *   This will launch a web interface to interactively explore the benchmark results.
+    *   Alternatively the dashboard is available on: "https://datasience-llm-benchmarkgit.streamlit.app"
 
 ## How it Works
 
@@ -53,8 +58,3 @@ The project likely follows this workflow:
 3.  The outputs (responses) from the LLMs are saved in the `results/` directory.
 4.  The [notebooks/LLM_Benchmark_Analysis.ipynb](notebooks/LLM_Benchmark_Analysis.ipynb) notebook reads these results, compares them against the `ground_truth/` files, and performs statistical analysis. It calculates metrics such as average scores, success/incomplete/failure rates, and cost-effectiveness (score per dollar, based on `PRICING_CONFIG` in the notebook).
 5.  The [streamlit_app/app.py](streamlit_app/app.py) provides an interactive dashboard to visualize these analyzed results, often including charts for average scores, performance by difficulty, and other comparisons.
-
-# Running the benchmark on your local device:
-
-1. Open your terminal and navigate to your desired folder
-2. Run following command in terminal: git clone 
