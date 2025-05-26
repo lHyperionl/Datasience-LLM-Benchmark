@@ -1,0 +1,8 @@
+{
+    "llm": {
+        "api_type": "openrouter",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": "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",
+        "model": "x-ai/grok-3-beta"
+    }
+}

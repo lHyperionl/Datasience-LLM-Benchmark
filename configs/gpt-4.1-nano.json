@@ -1,0 +1,8 @@
+{
+    "llm": {
+        "api_type": "openrouter",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": "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",
+        "model": "openai/gpt-4.1-nano"
+    }
+}

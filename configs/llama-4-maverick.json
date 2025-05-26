@@ -1,0 +1,8 @@
+{
+    "llm": {
+        "api_type": "openrouter",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": "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",
+        "model": "meta-llama/llama-4-maverick"
+    }
+}

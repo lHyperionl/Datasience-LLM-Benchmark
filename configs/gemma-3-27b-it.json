@@ -1,0 +1,8 @@
+{
+    "llm": {
+        "api_type": "openrouter",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": "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",
+        "model": "google/gemma-3-27b-it"
+    }
+}

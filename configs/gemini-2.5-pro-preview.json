@@ -1,0 +1,8 @@
+{
+    "llm": {
+        "api_type": "openrouter",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key": "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",
+        "model": "google/gemini-2.5-pro-preview"
+    }
+}

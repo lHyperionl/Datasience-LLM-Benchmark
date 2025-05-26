@@ -3,6 +3,6 @@
         "api_type": "openrouter",
         "base_url": "https://openrouter.ai/api/v1",
         "api_key": "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",
-        "model": "google/gemini-2.5-pro-preview" 
+        "model": "google/gemini-2.5-flash-preview-05-20" 
     }
 }
