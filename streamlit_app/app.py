@@ -7,7 +7,7 @@ from utils import load_all_results, calculate_model_stats, PRICING_CONFIG, get_c
 
 st.set_page_config(
     layout="wide",
-    page_title="LLM Benchmark Dashboard",
+    page_title="Datascience LLM Benchmark Dashboard",
     page_icon="🚀"
 )
 
@@ -235,7 +235,7 @@ else:
     filtered_summary_df = pd.DataFrame() # Empty df if no models selected or summary_df was initially empty
 
 # --- Main Panel ---
-st.title("📊 LLM Benchmark Analysis")
+st.title("📊 Datascience LLM Benchmark Analysis")
 
 st.header("🚀 Model Performance Overview")
 st.caption("High-level statistics and comparisons of selected LLM models based on the applied filters.")
